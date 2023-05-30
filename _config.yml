@@ -15,10 +15,10 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "ko"
 title                    : "Lifelong Learning"
-title_separator          : "-"
-subtitle                 : # site tagline that appears below site title in masthead
+# title_separator          : "-"
+# subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Russell Geum"
 description              : "Machine Learning, Books, Think"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -104,30 +104,30 @@ analytics:
 
 # Site Author
 author:
-  name             : "Russell Geum"
+  name             : "Russell"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "세상을 읽는 개발자"
   location         : "Seoul"
   email            : "oppenheimer1223@outlook.com"
-  links:
-    # - label: "Email"
-    #   icon: "fas fa-fw fa-envelope-square"
-    #   url: "oppenheimer1223@outlook.com"
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://your-website.com"
-    # - label: "Twitter"
-    #   icon: "fab fa-fw fa-twitter-square"
-    #   url: "https://twitter.com/"
-    # - label: "Facebook"
-    #   icon: "fab fa-fw fa-facebook-square"
-    #   url: "https://facebook.com/"
-    # - label: "GitHub"
-    #   icon: "fab fa-fw fa-github"
-    #   url: "https://github.com/"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+  # links:
+  #   - label: "Email"
+  #     icon: "fas fa-fw fa-envelope-square"
+  #     url: "oppenheimer1223@outlook.com"
+  #   - label: "Website"
+  #     icon: "fas fa-fw fa-link"
+  #     url: "https://your-website.com"
+  #   - label: "Twitter"
+  #     icon: "fab fa-fw fa-twitter-square"
+  #     url: "https://twitter.com/"
+  #   - label: "Facebook"
+  #     icon: "fab fa-fw fa-facebook-square"
+  #     url: "https://facebook.com/"
+  #   - label: "GitHub"
+  #     icon: "fab fa-fw fa-github"
+  #     url: "https://github.com/"
+  #   - label: "Instagram"
+  #     icon: "fab fa-fw fa-instagram"
+  #     url: "https://instagram.com/"
 
 # Site Footer
 footer:

@@ -1,6 +1,8 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
+  - title: "Archive"
+    url: /year-archive/
+  - title: "Category"
+    url: /category-archive/
   - title: "LinkedIn"
     url: https://www.linkedin.com/in/russellgeum/
