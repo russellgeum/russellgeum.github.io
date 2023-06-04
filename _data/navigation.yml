@@ -17,5 +17,5 @@ main:
 sidebar-category:
   - title: "카테고리"
     children:
-      - title: "test"
+      - title: "테스트 게시판"
         url:  "/test"
