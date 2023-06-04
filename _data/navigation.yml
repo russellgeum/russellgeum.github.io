@@ -14,8 +14,14 @@ main:
     url: https://www.linkedin.com/in/russellgeum/
 
 
-sidebar-category:
-  - title: "카테고리"
+# 보여주고 싶은 것
+# yrl은 pages의 디렉토리를 연결
+docs:
+  - title: 프로그래밍/개발
     children:
-      - title: "테스트 게시판"
-        url:  "/test"
+      - title: "테스트1"
+        url: /categories/test1
+  - title: 평소 생각
+    children:
+      - title: "테스트2"
+        url: /categories/test2
