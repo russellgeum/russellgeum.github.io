@@ -8,3 +8,10 @@ main:
     url: /category-archive/
   - title: "LinkedIn"
     url: https://www.linkedin.com/in/russellgeum/
+
+
+sidebar-category:
+  - title: "카테고리"
+    children:
+      - title: "test"
+        url:  "/test"
