@@ -1,7 +1,7 @@
 ---
-title: "blog"
+title: "test"
 layout: archive
-permalink: /blog
+permalink: /test
 ---
 
 
