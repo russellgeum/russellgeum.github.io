@@ -1,7 +1,7 @@
 ---
 title:  "[minimal-mistakes] 블로그 관리 링크 모음"
 categories:
-  - test1
+  - /categories/test
 ---
 
 - 검색 사이트 등록하기  

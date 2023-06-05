@@ -17,11 +17,13 @@ main:
 # 보여주고 싶은 것
 # yrl은 pages의 디렉토리를 연결
 docs:
-  - title: 프로그래밍/개발
+  - title: 개발
     children:
-      - title: "테스트1"
-        url: /categories/test1
-  - title: 평소 생각
+      - title: "테스트"
+        url: /categories/test
+      - title: "논문 리뷰"
+        url: /categories/paper
+  - title: 생각
     children:
-      - title: "테스트2"
-        url: /categories/test2
+      - title: "생각 정리"
+        url: /categories/think
