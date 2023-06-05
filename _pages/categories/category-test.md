@@ -1,7 +1,7 @@
 ---
 title: "테스트"
 layout: archive
-permalink: categories/test
+permalink: /categories/test
 author_profile: true
 types: posts
 ---

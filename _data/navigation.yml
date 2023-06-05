@@ -1,8 +1,3 @@
-# main links
-# 내비게이션 파일에서 상단 카테고리의 각 url은 _pages/url 의 파일로 연결됨
-# 내비게이션 파일에서 사이드 카테고리의 각 url은 _posts/url 의 파일로 연결됨
-
-
 main:
   - title: "About"
     url: /about/
@@ -15,7 +10,9 @@ main:
 
 
 # 보여주고 싶은 것
-# yrl은 pages의 디렉토리를 연결
+# url은 pages의 디렉토리를 연결
+# 큰 타이틀 - 작은 타이틀을 작성하고 이 타이틀이 어떤 url로 연결될지 작성
+# 해당 url은 _pages/.../category-구체적인 이름.md 형태로 작성되어야함
 docs:
   - title: 개발
     children:
