@@ -2,7 +2,7 @@
 title:  "[minimal-mistakes] 블로그 관리 링크 모음"
 data: 2023-07-05
 categories:
-  -  /categories/test
+  - test
 toc: true
 toc_sticky: true
 ---
