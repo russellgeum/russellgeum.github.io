@@ -18,7 +18,7 @@ main:
 #     children:
 #       - title: "생각 정리"
 #         url: categories/think
-docs:
+sidebar-category:
   - title: 논문
     children:
       - title: "딥러닝"
