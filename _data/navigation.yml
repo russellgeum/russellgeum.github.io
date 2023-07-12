@@ -1,6 +1,6 @@
 main:
   - title: "About"
-    url: /about/
+    url: /about
   - title: "LinkedIn"
     url: https://www.linkedin.com/in/russellgeum/
 
@@ -22,16 +22,16 @@ sidebar-category:
   - title: 논문
     children:
       - title: "딥러닝"
-        url: /deeplearning/
+        url: /deeplearning
         categories: "deeplearning"
       - title: "최적화"
-        url: /inference/
+        url: /inference
         categories: "inference"
   - title: 생각
     children:
       - title: "회고"
-        url: /retro/
+        url: /retro
         categories: "retro"
       - title: "독서"
-        url: /books/
+        url: /books
         categories: "books"
