@@ -22,16 +22,16 @@ sidebar-category:
   - title: 논문
     children:
       - title: "딥러닝"
-        url: categories/deeplearning/
+        url: deeplearning/
         categories: "deeplearning"
       - title: "최적화"
-        url: categories/inference/
+        url: inference/
         categories: "inference"
   - title: 생각
     children:
       - title: "회고"
-        url: categories/retro/
+        url: retro/
         categories: "retro"
       - title: "독서"
-        url: categories/books/
+        url: books/
         categories: "books"
