@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-12T23:53:43+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lifelong Learning</title><subtitle>Machine Learning, Books, Think</subtitle><author><name>Oppenheimer</name><email>oppenheimer1223@outlook.com</email></author><entry><title type="html">블로그 테스트</title><link href="http://localhost:4000/books/test/" rel="alternate" type="text/html" title="블로그 테스트" /><published>2023-07-11T00:00:00+09:00</published><updated>2023-07-11T00:00:00+09:00</updated><id>http://localhost:4000/books/test</id><content type="html" xml:base="http://localhost:4000/books/test/"><![CDATA[<h2 id="github-blog-서비스인-githubio-블로그-시작하기로-했다">GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-07-13T00:06:28+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Lifelong Learning</title><subtitle>Machine Learning, Books, Think</subtitle><author><name>Oppenheimer</name><email>oppenheimer1223@outlook.com</email></author><entry><title type="html">블로그 테스트</title><link href="http://localhost:4000/books/test" rel="alternate" type="text/html" title="블로그 테스트" /><published>2023-07-11T00:00:00+09:00</published><updated>2023-07-11T00:00:00+09:00</updated><id>http://localhost:4000/books/test</id><content type="html" xml:base="http://localhost:4000/books/test"><![CDATA[<h2 id="github-blog-서비스인-githubio-블로그-시작하기로-했다">GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.</h2>
 <ul>
   <li>
     <p>GitHub Blog 서비스의 이름은 Pages이다.</p>
@@ -25,4 +25,9 @@
   <li>
     <p>이렇게 YFM는 페이지 내부에서의 변수 역할을 하며, layout에 대한 오버라이딩 설정 등에도 사용된다.</p>
   </li>
-</ul>]]></content><author><name>Oppenheimer</name><email>oppenheimer1223@outlook.com</email></author><category term="books" /><summary type="html"><![CDATA[GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.]]></summary></entry></feed>
+</ul>
+
+<h2 id="몇-가지-minimal-jekyll에-대한-도움말">몇 가지 minimal jekyll에 대한 도움말</h2>
+<p><img src="https://velog.io/@eona1301/Github-Blog-Jekyll-minimal-mistakes" alt="여러 기능" /><br />
+<img src="https://x2info.github.io/minimal-mistakes/%EC%B9%B4%ED%85%8C%EA%B3%A0%EB%A6%AC_%EB%A7%8C%EB%93%A4%EA%B8%B0/" alt="카테고리 만들기" /><br />
+<img src="https://apit.dev/jekyll/minimal-mistakes-side-bar/" alt="사이드바 설정" /></p>]]></content><author><name>Oppenheimer</name><email>oppenheimer1223@outlook.com</email></author><category term="books" /><summary type="html"><![CDATA[GitHub Blog 서비스인 github.io 블로그 시작하기로 했다.]]></summary></entry></feed>

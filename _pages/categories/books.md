@@ -1,9 +1,11 @@
 ---
-title: "독서"
 layout: archive
-permalink: /categories/books
-author_profile: true
 types: posts
+title: "독서"
+permalink: "books"
+author_profile: true
+sidebar:
+  nav: "sidebar-category"
 ---
 
 
