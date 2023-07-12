@@ -1,9 +1,11 @@
 ---
-title: "딥러닝"
 layout: archive
-permalink: /categories/deeplearning
-author_profile: true
 types: posts
+title: "딥러닝"
+permalink: "/deeplearning"
+author_profile: true
+sidebar:
+  nav: "sidebar-category"
 ---
 
 

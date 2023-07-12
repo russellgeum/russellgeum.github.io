@@ -2,7 +2,7 @@
 layout: archive
 types: posts
 title: "독서"
-permalink: "books"
+permalink: "/books"
 author_profile: true
 sidebar:
   nav: "sidebar-category"

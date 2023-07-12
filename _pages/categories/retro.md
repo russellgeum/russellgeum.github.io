@@ -1,16 +1,14 @@
 ---
-title: "회고"
 layout: archive
-permalink: /categories/retro
-author_profile: true
 types: posts
+title: "회고"
+permalink: "/retro"
+author_profile: true
+sidebar:
+  nav: "sidebar-category"
 ---
 
 
 {% assign posts = site.categories.retro %}
 {% for post in posts %} {% include archive-single.html type=page.entries_layout %}
 {% endfor %}
-
-<!-- {% assign posts = site.categories.blog %}
-{% for post in posts %} {% include archive-single.html type=page.entries_layout %}
-{% endfor %} -->

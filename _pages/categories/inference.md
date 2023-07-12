@@ -1,9 +1,11 @@
 ---
-title: "최적화"
 layout: archive
-permalink: /categories/inference
-author_profile: true
 types: posts
+title: "최적화"
+permalink: "/inference"
+author_profile: true
+sidebar:
+  nav: "sidebar-category"
 ---
 
 
