@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "오펜하이머"
-  avatar           : "/assets/me.jpg"
+  # avatar           : "/assets/me.jpg"
   bio              : "세상을 읽는 개발자"
   location         : "Seoul"
   email            : "oppenheimer1223@outlook.com"
