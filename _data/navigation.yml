@@ -22,8 +22,8 @@ sidebar-category:
   - title: 논문
     children:
       - title: "딥러닝"
-        url: /deeplearning
-        categories: "deeplearning"
+        url: /learning
+        categories: "learning"
       - title: "최적화"
         url: /inference
         categories: "inference"

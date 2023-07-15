@@ -2,7 +2,7 @@
 layout: archive
 types: posts
 title: "딥러닝"
-permalink: "/deeplearning"
+permalink: "/learning"
 author_profile: true
 sidebar:
   nav: "sidebar-category"

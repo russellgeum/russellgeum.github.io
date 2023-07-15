@@ -15,13 +15,13 @@
 <loc>http://localhost:4000/category-archive/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/deeplearning</loc>
-</url>
-<url>
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
 <loc>http://localhost:4000/inference</loc>
+</url>
+<url>
+<loc>http://localhost:4000/learning</loc>
 </url>
 <url>
 <loc>http://localhost:4000/retro</loc>

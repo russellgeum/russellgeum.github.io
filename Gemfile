@@ -1,6 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 3.5"
+# gem "jekyll-whiteglass"
 gem "minimal-mistakes-jekyll"
 gem "kramdown-parser-gfm"
 
