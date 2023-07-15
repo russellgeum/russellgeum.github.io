@@ -19,7 +19,7 @@ locale                   : "ko"
 title                    : "Lifelong Learning"
 # title_separator          : "-"
 # subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Russell Geum"
+name                     : "오펜하이머"
 description              : "Machine Learning, Books, Think"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -104,7 +104,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Oppenheimer"
+  name             : "오펜하이머"
   avatar           : "/assets/me.jpg"
   bio              : "세상을 읽는 개발자"
   location         : "Seoul"
