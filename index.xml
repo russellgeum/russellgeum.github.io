@@ -167,5 +167,52 @@ Motiviation Large Language Models (LLMs) have demonstrated remarkable results fo
       <description>1. 작년 졸업을 준비할 쯤, 큰 부상을 당해 팔 수술을 하였다. 팔목에 영구 후유가 생겼는데, 지금도 키보드를 오래 잡으면 조금 시큰하다. 어쨋든 작년에는 취업을 못할 것 같아서 반년 쉬고 준비를 다시 해야할 것 같았다. (회사 지원을 폭 넓게 많이 못했다. 꼭 하고 싶은 분야의 회사로만 지원을 할 수 밖에 없었다.) 그래도 운이 좋게 원하던 회사에 합격하였고, 어느덧 재직 딱 반년 차 주니어이다.
 2. (큰 이변이 없는 한) 다시 학교로 돌아가지는 않을 것 같다.</description>
     </item>
+    <item>
+      <title>[논문] Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes</title>
+      <link>https://russellgeum.github.io/posts/2021-06-30/</link>
+      <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/2021-06-30/</guid>
+      <description>Motivation 너프의 스태틱 가정을 깨고 space-time 형태의 다이나믹 비디오에서 NVS를 하고자 함
+Related Work Novel View Synthesis
+NeRF는 static scene임 (멈춰 있는 한 장면에서 MVS로 찍은 카메라 가지고 NVS) Novel Time Synthesis
+Temporal synthesis는 가능했지만, Space synthesis는 하지 않음 Space-Time synthesis
+Static 장면을 다루거나, 복잡한 기하적 관계를 풀지 못함 필요에 따라 사람의 라벨링이 요구되는 경우도 있음 Contribution NeRF와는 달리, 다이나믹 장면은 temporal domain을 포함한다. 따라서 비디오 프레임의 i도 포지션으로 입력하면 i → i+1, i-1의 scene flow [f, f’]가 출력을 하게끔 MLP 모델 디자인</description>
+    </item>
+    <item>
+      <title>[논문] When Does Contrastive Visual Representation Learning Work</title>
+      <link>https://russellgeum.github.io/posts/2021-05-31/</link>
+      <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/2021-05-31/</guid>
+      <description>Conclusion Contrastive Learning이 언제 유효하고, 또 언제 성능이 안 좋은지에 대해서 4가지 관점으로 고민
+데이터 양, 데이터 도메인, 데이터 품질, 태스크 세분화
+50만 장을 넘는 데이터 이점은 그리 많지 않음 다른 도메인으로부터 pretraining image를 추가하는 것은 general representation을 이끌어내지 않음 corrupted pretraining image → disparate impact on supervised pretraining CL lags far behind SL on fine-grained visual task </description>
+    </item>
+    <item>
+      <title>[논문] A Large-Scale Study on Unsupervised Spatiotemporal Representation Learning</title>
+      <link>https://russellgeum.github.io/posts/2021-04-01/</link>
+      <pubDate>Thu, 01 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/2021-04-01/</guid>
+      <description>Motiviation 비디오로부터 spatio-temporal 표현의 대규모 연구를 보여준다. 최근의 네 가지 이미지 기반 프레임워크에 대한 통합된 관점과 함께, 시공간적 방법, 즉 비디오 데이터로 일반화할 수 있는 간단한 목표를 제시. 중요한 이미지 비지도 표현 학습 논문은 data augmentation을 통해 같은 이미지의 서로 다른 뷰들에서 유사도가 높은 피처를 찾아내는 것이 목표이다.
+Contiribtuion 그런데 비디오는 자연적인 augmentation을 줄 수 있다. 모션, deformation, occlusion, illumination 등이다. (나의 이해: 비디오의 각 프레임들이 어떤 이미지의 augmentation. 이런 것들이 이어져서 temporal consistency를 만듬)</description>
+    </item>
+    <item>
+      <title>[논문] ViViT, A Video Vision Transformer</title>
+      <link>https://russellgeum.github.io/posts/2021-03-05/</link>
+      <pubDate>Fri, 05 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/2021-03-05/</guid>
+      <description>Motiviation 비디오에서 temporal token을 받아, 트랜스포머에서 처리하는 방법론을 제안
+ViT에서 영감을 받아, 트랜스포머가 시퀀셜한 데이터를 처리하는 것을 비디오에 적용해보는 것은 자연스러움
+Contribution 트랜스포머만으로 비디오 데이터를 처리하는 프레임워크를 제안 공간 차원과 시간 차원으로 분해해서 연산하는 효율적인 방법론 regularization과 빠른 학습을 위해 어떻게 Pre-trianed 모델을 가져다 썻는지 보여줌 비디오 임베딩 ViT에서 했던 방법을 사용해서 비디오 클립을 유니폼 샘플링 후, 샘플링 프레임마다 tokenizing 다른 하나는 토큰 차원을 temporal로 확장해서 사용 세 가지 구조 모델 1</description>
+    </item>
+    <item>
+      <title>[논문] A Simple Framework for Contrastive Learning of Visual Representations</title>
+      <link>https://russellgeum.github.io/posts/2021-03-01/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/2021-03-01/</guid>
+      <description>용어의 정의 Pretext task: represenation learning을 위해 수행되는 태스크 Downstream task: pretext task로 얻은 파라미터를 동해 본격 풀고자 하는 문제를 푸는 것 Motivation 모델의 표현력을 극대로 끌어올리는 방법에 대한 연구, 특히 이를 효율적으로 할 수 있을까?
+Related Work Visual representation learning의 non supervision 관점에서 두 가지 메인스트림이 있음
+Generative
+이 방식은 계산량이 많음, 그리고 representation learning이 꼭 필요하지는 않음 Discriminative supervised learning에서 사용된 방법과 비한 오브젝티브 펑션이 있고, 이를 통해 reprsentation을 학습함 그러나 unlabeld dataset으로부터 얻은 label과 input 사이에서 pretext task를 수행해야함 최근의 discriminative 방식은 contrastive learning에 근거한 방법이 많음 (CPC, CMC, CPC v2 등등) Contribution representation learning에서 data augmentation에 대한 체계적인 고민이 없었음</description>
+    </item>
   </channel>
 </rss>
