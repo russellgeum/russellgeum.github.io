@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>개발 on Oppenheimer&#39;s BLOG</title>
+    <link>https://examplesite.com/categories/%EA%B0%9C%EB%B0%9C/</link>
+    <description>Recent content in 개발 on Oppenheimer&#39;s BLOG</description>
+    <image>
+      <title>Oppenheimer&#39;s BLOG</title>
+      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://examplesite.com/categories/%EA%B0%9C%EB%B0%9C/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[개발] Hugo 테마에서 마크다운 텍스트 양쪽 정렬</title>
+      <link>https://examplesite.com/posts/2023-07-24/</link>
+      <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://examplesite.com/posts/2023-07-24/</guid>
+      <description>Hugo 텍스트 양쪽 정렬 기본적으로 마크다운 문법은 텍스트 양쪽 정렬을 지원하지 않는다.
+다만 .scss 파일에 몇 줄 코드 추가로 강제 양쪽 정렬을 할 수 있다.
+먼저 아래의 경로로 들어가자.
+&amp;lt;blog folder&amp;gt;/assets/themes/_main.scss &amp;lt;blog folder&amp;gt;/assets/themes/_markdown.scss 그리고 아래의 코드를 추가하여 저장한다.
+// 글 양쪽 정렬 p { text-align: justify; word-break: break-all; } 다시 리빌드를 하면 텍스트 양쪽 정렬이 된 것을 확인할 수 있다.</description>
+    </item>
+  </channel>
+</rss>
