@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>논문 on Oppenheimer&#39;s BLOG</title>
-    <link>https://examplesite.com/categories/%EB%85%BC%EB%AC%B8/</link>
+    <link>https://russellgeum.github.io/categories/%EB%85%BC%EB%AC%B8/</link>
     <description>Recent content in 논문 on Oppenheimer&#39;s BLOG</description>
     <image>
       <title>Oppenheimer&#39;s BLOG</title>
-      <url>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://examplesite.com/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://russellgeum.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://russellgeum.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 04 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://examplesite.com/categories/%EB%85%BC%EB%AC%B8/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://russellgeum.github.io/categories/%EB%85%BC%EB%AC%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[논문] Survey: Large Multimodal Models</title>
-      <link>https://examplesite.com/posts/2024-02-04/</link>
+      <link>https://russellgeum.github.io/posts/2024-02-04/</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/2024-02-04/</guid>
+      <guid>https://russellgeum.github.io/posts/2024-02-04/</guid>
       <description>개요 최근 대규모 언어 모델은 멀티모달과 결합한 방향으로 변하고 있다. 구현 방식에는 몇 가지 유형이 있지만, 통상 대규모 언어 모델을 기반으로 한다. 그 결과 LLM의 추론 능력 및 의사 결정 능력을 향상하고, 다양한 멀티모달 태스크를 수행할 수 있다. 대규모 멀티모달 모델의 큰 접근은 아래와 같다.
 중요한 트렌드 멀티모달 이해에서 생성으로 그리고 모달리티 간의 변환 (Any-to-Any)
 (예시: MiniGPT-4 → MiniGPT-5 → NExT-GPT) Pre-Training - Supervised Fine-Tuning - RLHF으로의 훈련 파이프라인
@@ -25,18 +25,18 @@
     </item>
     <item>
       <title>[논문] Survey: Efficient Large Language Models</title>
-      <link>https://examplesite.com/posts/2024-01-07/</link>
+      <link>https://russellgeum.github.io/posts/2024-01-07/</link>
       <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/2024-01-07/</guid>
+      <guid>https://russellgeum.github.io/posts/2024-01-07/</guid>
       <description>Efficient LLM 요약 대규모 언어 모델은 자연어 이해, 생성, 복잡한 추론과 같은 작업에서 뛰어난 능력을 보여주었다. 그러나 대규모 언어 모델은 막대한 하드웨어 리소스가 필요하고, 효율성을 위한 기술 개발의 니즈가 발생하였다. 이 기술 동향은 효율적인 대규모 언어 모델을 위해 몇 가지 기술 분류와 최근 동향을 제안한다.
 Model Compression Weight-Only Quantization (PTQ) GPTQ: Accurate Quantization for Generative Pre-trained Transformers, [Paper] [Code] ICLR, 2023
 QuIP: 2-Bit Quantization of Large Language Models With Guarantees, [Paper] [Code] arXiv, 2023</description>
     </item>
     <item>
       <title>[논문] ICCV 2023 관심 분야 논문</title>
-      <link>https://examplesite.com/posts/2023-10-03/</link>
+      <link>https://russellgeum.github.io/posts/2023-10-03/</link>
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/2023-10-03/</guid>
+      <guid>https://russellgeum.github.io/posts/2023-10-03/</guid>
       <description>ICCV 2023 ICCV 2023 Link
 Papers ICCV 2023이 열리고 있다. NeRF, Multimodal/VQA, Model Compression 위주로 트래킹한다.
 (일부 특이한 연구도 포함)
@@ -52,24 +52,24 @@ SceneRF: Self-Supervised Monocular 3D Scene Reconstruction with Radiance Fields<
     </item>
     <item>
       <title>[논문] Survey: Large Language Models Compression</title>
-      <link>https://examplesite.com/posts/2023-08-29/</link>
+      <link>https://russellgeum.github.io/posts/2023-08-29/</link>
       <pubDate>Tue, 29 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/2023-08-29/</guid>
+      <guid>https://russellgeum.github.io/posts/2023-08-29/</guid>
       <description>대규모 언어 모델의 경량화 동향 Abstract LLM은 거대한 크기와 계산량으로 인해, 리소스 제한적인 환경에서의 배포를 어렵게 만듬 LLM의 압축이 중요한 분야임. 이 서베이는 LLM 압축 기술의 많은 자료를 제공함 Quantization, Pruning, KD 등 다양한 방법론을 탐구하며, 최신 연구와 접근법을 보여줌 압축된 LLM을 평가하기 위한 메트릭에 대한 조사도 진행함 Introduction &amp;amp; Method 대규모 언어 모델은 다양한 태스크에서 뛰어난 능력을 보여주고 있다. 그럼에도 모델의 방대한 크기와 요구되는 계산량때문에 배포에서 많은 어려움이 따른다. 2020년의 GPT-175B 모델은 1,750억 개 파라미터이다.</description>
     </item>
     <item>
       <title>[논문] Survey: Large Language Models</title>
-      <link>https://examplesite.com/posts/2023-08-28/</link>
+      <link>https://russellgeum.github.io/posts/2023-08-28/</link>
       <pubDate>Mon, 28 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/2023-08-28/</guid>
+      <guid>https://russellgeum.github.io/posts/2023-08-28/</guid>
       <description>LLM 동향 LLM 모델 그 자체부터 응용/생산성을 위한 갖가지 방법을 섞은 모델, 기술들이 계속 나오고 있다. 그러다가 근래에는 그 정도가 사그라든 느낌이 드는데, 이 틈이 딱 공부하기 좋은 시기라고 생각한다. LLM에 관련한 모든 논문은 볼 수 없어도, 히스토리나 최근의 동향을 볼 수 있는 서베이 논문이 많이 나와서 리스트업한다. 시간날 때 읽어보면 각 분야의 개별 연구자 및 개발자들이 어떤 시각으로 LLM을 활용하거나 바라보는지 최신 연구들을 추적할 기회이다.
 Large Language Models Survey on Large Language Models</description>
     </item>
     <item>
       <title>[논문] ICML 2023 추론 최적화 관련 리스트</title>
-      <link>https://examplesite.com/posts/2023-07-25/</link>
+      <link>https://russellgeum.github.io/posts/2023-07-25/</link>
       <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/2023-07-25/</guid>
+      <guid>https://russellgeum.github.io/posts/2023-07-25/</guid>
       <description>ICML 2023 Papers ICML 2023이 열리고 있다.
 Distillation, Quantization, HW-aware Deep Learning 위주로 트래킹 중이다.
 COMCAT: Towards Efficient Compression and Customization of Attention-Based Vision Models
@@ -81,18 +81,18 @@ Tal Wagner, Yonatan Naamad, Nina Mishra</description>
     </item>
     <item>
       <title>[논문] Pruning vs Quantization: Which is Better?</title>
-      <link>https://examplesite.com/posts/2023-07-23/</link>
+      <link>https://russellgeum.github.io/posts/2023-07-23/</link>
       <pubDate>Sun, 23 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/2023-07-23/</guid>
+      <guid>https://russellgeum.github.io/posts/2023-07-23/</guid>
       <description>Paper Link Andrey Kuzmin et al (Qualcomm AI Research)
 Introduction 이 논문은 딥러닝 모델 압축에서 Quantization과 Pruning이 무엇이 어떤 경우에 더 우수한지의 정량적 실험 결과를 리포트한다.
 Motiviation 양자화와 프루닝은 모두 비슷한 시기에 시작되어 발전하였다. 그러나 아직까지 올바른 비교는 (저자가 아는 한) 없었다고 주장한다. 본 연구의 리포트가 앞으로 딥러닝 추론 하드웨어 디자인 결정에 도움이 되기를 희망한다. 이 논문은 실험을 위해 몇 가지 강력한 가정을 사용한다. 먼저 FP16 데이터 타입을 기준으로 삼는다. 일반적으로 딥러닝 추론 성능의 정확도를 떨어트리지 않는 마지노선이라 주장하고, 신경망은 매우 흔하게 FP16 타입에서 학습되기 때문이다.</description>
     </item>
     <item>
       <title>[논문] SqueezeLLM: Dense-and-Sparse Quantization</title>
-      <link>https://examplesite.com/posts/2023-07-19/</link>
+      <link>https://russellgeum.github.io/posts/2023-07-19/</link>
       <pubDate>Wed, 19 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://examplesite.com/posts/2023-07-19/</guid>
+      <guid>https://russellgeum.github.io/posts/2023-07-19/</guid>
       <description>Paper Link Sehoon Kim et al (UC Berkeley)
 Introduction This paper proposes a Psuedo-PTQ method considering the weight distribution of LLM and outliers.
 Motiviation Large Language Models (LLMs) have demonstrated remarkable results for a wide range of tasks. Deploying LLMs for inference has been a significant challenge due to their unprecedented resource requirements. AThis has forced existing deployment frameworks to use multi-GPU inference pipelines, or to use smaller and less performant models.</description>
