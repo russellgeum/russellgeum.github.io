@@ -28,7 +28,7 @@
       <link>https://russellgeum.github.io/posts/2024-01-07/</link>
       <pubDate>Sun, 07 Jan 2024 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/2024-01-07/</guid>
-      <description>Efficient LLM 요약 대규모 언어 모델은 자연어 이해, 생성, 복잡한 추론과 같은 작업에서 뛰어난 능력을 보여주었다. 그러나 대규모 언어 모델은 막대한 하드웨어 리소스가 필요하고, 효율성을 위한 기술 개발의 니즈가 발생하였다. 이 기술 동향은 효율적인 대규모 언어 모델을 위해 몇 가지 기술 분류와 최근 동향을 제안한다.
+      <description>개요 대규모 언어 모델은 자연어 이해, 생성, 복잡한 추론과 같은 작업에서 뛰어난 능력을 보여주었다. 그러나 대규모 언어 모델은 막대한 하드웨어 리소스가 필요하고, 효율성을 위한 기술 개발의 니즈가 발생하였다. 이 기술 동향은 효율적인 대규모 언어 모델을 위해 몇 가지 기술 분류와 최근 동향을 제안한다.
 Model Compression Weight-Only Quantization (PTQ) GPTQ: Accurate Quantization for Generative Pre-trained Transformers, [Paper] [Code] ICLR, 2023
 QuIP: 2-Bit Quantization of Large Language Models With Guarantees, [Paper] [Code] arXiv, 2023</description>
     </item>
