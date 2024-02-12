@@ -168,6 +168,27 @@ Motiviation Large Language Models (LLMs) have demonstrated remarkable results fo
 2. (큰 이변이 없는 한) 다시 학교로 돌아가지는 않을 것 같다.</description>
     </item>
     <item>
+      <title>[논문] Content-aware Unsupervised Deep Homography Estimation and Its Enxtensions</title>
+      <link>https://russellgeum.github.io/posts/2022-07-31/</link>
+      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/2022-07-31/</guid>
+      <description>개요 호모그래피는 스테레오 비전의 근본이다. 영상이 대략 회전 모션이거나 장면이 평면 표면에 가까우면 호모그래피 행렬을 근사할 수 있다. 장면이 제약 조건을 만족하면 직접 호모그래피를 계산할 수 있다. 시맨텍 어웨어하고 러버스트한 호모그래피 추정 딥러닝 알고리즘을 개발 이전 연구의 한계 생략
+제안 방법 두 이미지를 인코더
+레즈넷34 백본을 받아서 3x3, 8DoF의 호모그래피 행렬을 추정
+호모그래피 추정을 위해 Triplet Loss를 사용
+호모그래피 추정이 완벽하다면 호모그래피를 통한 와핑이 잘 되어야 함 그래서 와핑한 피처 혹은 이미지가 타겟 피처 또는 이미지와 잘 얼라인 되어야 함 두 번째 로스 텀은 잘 모르겠음 호모그래피 a→b에서 b→a는 identity로 레귤라이저를 추가함 Content-aware prob map</description>
+    </item>
+    <item>
+      <title>[논문] Video Object Segmentation with Compressed Video</title>
+      <link>https://russellgeum.github.io/posts/2021-08-10/</link>
+      <pubDate>Tue, 10 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/2021-08-10/</guid>
+      <description>개요 비디오 압축 코덱 정보만으로 세그멘테이션 추론을 어떻게 빨리 할 수 있을까?
+이전 연구의 한계 기존 VOS 태스크들은 정확하지만 속도가 느림 효율적인 방법들이 제시되었으나, 정확도 간의 트레이드오프가 있음 옵티컬 플로우 기반은 비용이 너무 비쌈, 그리고 two-view 밖에 못 봄 제안 방법 키프레임에서 다른 프레임으로 bidirectional, multi-hop 방식으로 세그멘테이션 마스크를 전달하여 워핑하는 네트워크 디자인
+소프트 프로파게이션 모듈
+부정확하고 블록 단위의 모션 벡터를 입력으로 받아서, 노이즈를 없앤 후 정확한 와핑을 할 수 있게 함</description>
+    </item>
+    <item>
       <title>[논문] Neural Scene Flow Fields for Space-Time View Synthesis of Dynamic Scenes</title>
       <link>https://russellgeum.github.io/posts/2021-06-30/</link>
       <pubDate>Wed, 30 Jun 2021 00:00:00 +0000</pubDate>
@@ -203,6 +224,14 @@ Contiribtuion 그런데 비디오는 자연적인 augmentation을 줄 수 있다
       <description>Motiviation 비디오에서 temporal token을 받아, 트랜스포머에서 처리하는 방법론을 제안
 ViT에서 영감을 받아, 트랜스포머가 시퀀셜한 데이터를 처리하는 것을 비디오에 적용해보는 것은 자연스러움
 Contribution 트랜스포머만으로 비디오 데이터를 처리하는 프레임워크를 제안 공간 차원과 시간 차원으로 분해해서 연산하는 효율적인 방법론 regularization과 빠른 학습을 위해 어떻게 Pre-trianed 모델을 가져다 썻는지 보여줌 비디오 임베딩 ViT에서 했던 방법을 사용해서 비디오 클립을 유니폼 샘플링 후, 샘플링 프레임마다 tokenizing 다른 하나는 토큰 차원을 temporal로 확장해서 사용 세 가지 구조 모델 1</description>
+    </item>
+    <item>
+      <title>[논문] Big Self-Supervised Models are Strong Semi-Supervised Learners (SimCLR v2)</title>
+      <link>https://russellgeum.github.io/posts/2021-03-02/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/2021-03-02/</guid>
+      <description>용어의 정리 task-agnostic: 태스크에 구애받지 않는 fine-tuning 할 때 사용하는 태스크는 최종 태스크 (specific task) Motivation 레이블이 없는 방대한 데이터를 잘 활용하면서, 몇 가지 레이블로만 학습 효율을 높이는 방법론 중 하나는 비지도 학습 기반의 사전 훈련과 fine-tuning이다. 즉, 레이블이 없는 방대한 데이터를 통한 비지도 학습으로 좋은 representation을 얻은 후, 이를 통해 적은 레이블의 데이터만으로 fine-tuning을 하는 것 이러한 방법론을 컴퓨터 비전에서는 어떻게 할 수 있을지에 대한 연구이다.
+Related Work 이미 자연어 처리에서는 지배적인 방법이다.</description>
     </item>
     <item>
       <title>[논문] A Simple Framework for Contrastive Learning of Visual Representations</title>
