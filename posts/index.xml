@@ -23,6 +23,15 @@ llama.cpp Orion-14B 모델 Orion-14B-Chat in HuggingFace 추론 환경 CMake 설
 import torch from transformers import AutoModelForCausalLM, AutoTokenizer from transformers.generation.utils import GenerationConfig tokenizer = AutoTokenizer.from_pretrained(&amp;#34;OrionStarAI/Orion-14B&amp;#34;, use_fast=False, trust_remote_code=True) model = AutoModelForCausalLM.</description>
     </item>
     <item>
+      <title>[논문] Deep Video Prior for Consistency and Propagation</title>
+      <link>https://russellgeum.github.io/posts/2022-01-31/</link>
+      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/2022-01-31/</guid>
+      <description>Motivation 비디오 프레임간 시간 불일치성을 해결하기 위해 DVP를 implcit하게 DNN에 주는 방법을 제안 DVP가 무엇인가?
+비디오를 사용한 멀티모달 태스크에서는 성능의 흔들림이 심함 → 이터레티브하게 중요도를 재할당하는 전략으로 해결 Related Work 이전 비디오 연구들은 구축된 대규모 비디오 데이터셋이 필요했음 옵티컬 플로우 같은 정보나, 단순 프레임 간 유사도를 비교하는 것만으로는 롱-텀 비디오에 적합하지 않음 이전 비디오 연구들은 멀티 모달 태스크에서 좋은 성능을 골고루 보이기 어려웠음 Contribution DVP가 무엇인가?
+DVP는 비디오 처리에서 임플리싯하게 비디오 일관성을 주기 위해 사용되는 성질들을 일컬음</description>
+    </item>
+    <item>
       <title>[논문] Survey: Large Multimodal Models</title>
       <link>https://russellgeum.github.io/posts/2024-02-04/</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
@@ -175,6 +184,18 @@ Motiviation Large Language Models (LLMs) have demonstrated remarkable results fo
       <guid>https://russellgeum.github.io/posts/2023-07-14/</guid>
       <description>1. 작년 졸업을 준비할 쯤, 큰 부상을 당해 팔 수술을 하였다. 팔목에 영구 후유가 생겼는데, 지금도 키보드를 오래 잡으면 조금 시큰하다. 어쨋든 작년에는 취업을 못할 것 같아서 반년 쉬고 준비를 다시 해야할 것 같았다. (회사 지원을 폭 넓게 많이 못했다. 꼭 하고 싶은 분야의 회사로만 지원을 할 수 밖에 없었다.) 그래도 운이 좋게 원하던 회사에 합격하였고, 어느덧 재직 딱 반년 차 주니어이다.
 2. (큰 이변이 없는 한) 다시 학교로 돌아가지는 않을 것 같다.</description>
+    </item>
+    <item>
+      <title>[논문] Content-aware Unsupervised Deep Homography Estimation and Its Enxtensions</title>
+      <link>https://russellgeum.github.io/posts/2021-09-31/</link>
+      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/2021-09-31/</guid>
+      <description>Motivation 기존 뎁스 추정은 correspondence estimation으로 풀었다. 그러나 이 과정에는 문제가 있음. 어떤 문제?
+conventional 방법은 텍스쳐가 약하거나, non-Lambertian 표면에서 문제가 생김
+딥러닝 기반은 뎁스 consistency가 일정하지 않고, photometric consistency에서 3D 정보를 제대로 반영하지 못하는 문제
+이 논문은 NeRF의 힘을 빌려, 멀티 뷰 스테레오 뎁스 추정을 하고자 함. 어떻게?
+correspondence estimation과 corr view depth reprojection 최적화 대신에, 이 논문은 다이렉트로 부피를 최적화함
+→ 그런데 NeRF에서는 shape-radiance ambiguity 문제가 있음. 이를 해결하기 위해 뎁스 프라이어 기반의 NeRF 훈련 가이던스를 제안함</description>
     </item>
     <item>
       <title>[논문] Content-aware Unsupervised Deep Homography Estimation and Its Enxtensions</title>
