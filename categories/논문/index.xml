@@ -18,7 +18,7 @@
       <link>https://russellgeum.github.io/posts/2024-02-04/</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/2024-02-04/</guid>
-      <description>개요 최근 대형 언어 모델은 멀티모달과 결합한 방향으로 변하고 있다. 구현 방식에는 몇 가지 유형이 있지만, 공통적으로 멀티모달 데이터 임베딩을 자연어 임베딩 공간으로 매핑한 후, 이를 언어 모델 추론을 위한 입력으로 활용한다. 대형 멀티모달 모델의 큰 접근은 아래와 같다.
+      <description>개요 최근 대형 언어 모델은 멀티모달과 결합한 방향으로 변하고 있다. 구현 방식에 몇 가지 유형이 있지만, 공통적으로 멀티모달 데이터 임베딩을 자연어 임베딩 공간으로 매핑한 후, 이를 언어 모델 추론을 위한 입력으로 활용한다. 대형 멀티모달 모델의 큰 접근은 아래와 같다.
 중요한 트렌드 멀티모달 이해에서 생성으로 그리고 모달리티 간의 변환 (Any-to-Any)
 (예시: MiniGPT-4 → MiniGPT-5 → NExT-GPT) Pre-Training - Supervised Fine-Tuning - RLHF으로의 훈련 파이프라인
 (예시: BLIP-2 → InstructBLIP → DRESS) 다양한 모달리티으로의 확장</description>
