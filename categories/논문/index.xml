@@ -33,7 +33,7 @@ Model Compression Weight-Only Quantization (PTQ) GPTQ: Accurate Quantization for
 QuIP: 2-Bit Quantization of Large Language Models With Guarantees, [Paper] [Code] arXiv, 2023</description>
     </item>
     <item>
-      <title>[논문] ICCV 2023 관심 분야 논문</title>
+      <title>[논문] ICCV 2023 관심 논문 리스트업</title>
       <link>https://russellgeum.github.io/posts/2023-10-03/</link>
       <pubDate>Tue, 03 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/2023-10-03/</guid>
@@ -66,7 +66,7 @@ SceneRF: Self-Supervised Monocular 3D Scene Reconstruction with Radiance Fields<
 Large Language Models Survey on Large Language Models</description>
     </item>
     <item>
-      <title>[논문] ICML 2023 추론 최적화 관련 리스트</title>
+      <title>[논문] ICML 2023 추론 최적화 관련 논문 리스트업</title>
       <link>https://russellgeum.github.io/posts/2023-07-25/</link>
       <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/2023-07-25/</guid>
@@ -265,6 +265,13 @@ Related Work 이미 자연어 처리에서는 지배적인 방법이다.</descri
 Related Work Visual representation learning의 non supervision 관점에서 두 가지 메인스트림이 있음
 Generative
 이 방식은 계산량이 많음, 그리고 representation learning이 꼭 필요하지는 않음 Discriminative supervised learning에서 사용된 방법과 비한 오브젝티브 펑션이 있고, 이를 통해 reprsentation을 학습함 그러나 unlabeld dataset으로부터 얻은 label과 input 사이에서 pretext task를 수행해야함 최근의 discriminative 방식은 contrastive learning에 근거한 방법이 많음 (CPC, CMC, CPC v2 등등) Contribution representation learning에서 data augmentation에 대한 체계적인 고민이 없었음</description>
+    </item>
+    <item>
+      <title>[논문] Video Object Segmentation using Space-Time Memory Networks</title>
+      <link>https://russellgeum.github.io/posts/2021-05-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/2021-05-12/</guid>
+      <description>Motivation 준지도 학습에서 문제에 따라, 중간단계 예측과 함께 사용 가능한 정보는 풍부하다. 기존의 방법에서는 이러한 아이디어를 활용할 수 없었다. 논문은 메모리 네트워크를 통해, 가능한 모든 소수로부터 관련된 정보를 읽어 학습하고자 한다. 과거 프레임과 마스크가 외부 메모리를 형성하고, 현재 프레임이 쿼리로서 메모리 속 마스크 정보를 사용하여 세그멘테이션을 수행함 구체적으로 쿼리와 메모리는 피처 스페이스에서 매칭이 된다. (모든 space-time 픽셀 지점에서) Related Works 이전 프레임에서 형상을 추출하고 전파하는 방식 외관 변화에 더 잘 대처하나, 오클루션이나 에러 드리프트의 러버스트가 낮을 수 있다.</description>
     </item>
   </channel>
 </rss>
