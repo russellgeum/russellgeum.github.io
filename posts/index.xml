@@ -178,15 +178,6 @@ Motivation Large Language Models (LLMs) have demonstrated remarkable results for
     </item>
     <item>
       <title>[논문] Content-aware Unsupervised Deep Homography Estimation and Its Enxtensions</title>
-      <link>https://russellgeum.github.io/posts/2021-09-31/</link>
-      <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
-      <guid>https://russellgeum.github.io/posts/2021-09-31/</guid>
-      <description>Motivation 기존 뎁스 추정은 correspondence estimation으로 풀었다. 그러나 이 과정에는 문제가 있음
-Conventional 방법은 텍스쳐가 약하거나, non-Lambertian 표면에서 문제가 생김 딥러닝 기반은 뎁스 consistency가 일정하지 않고, photometric consistency에서 3D 정보를 제대로 반영하지 못하는 문제 이 논문은 NeRF의 힘을 빌려, 멀티 뷰 스테레오 뎁스 추정을 하고자 함
-correspondence estimation과 corr view depth reprojection 최적화 대신에, 이 논문은 다이렉트로 부피를 최적화함 → 그런데 NeRF에서는 shape-radiance ambiguity 문제가 있음. 이를 해결하기 위해 뎁스 프라이어 기반의 NeRF 훈련 가이던스를 제안함 Related Work Conventional 방법은 textuless, non-lambertian 표면에서 문제가 발생 Learning based 방법은 depth consistency 일정하지 않고, photometric loss가 3D 정보를 반영하지 못함 Contribution Depth consistency를 해결하기 위한 제안 방법</description>
-    </item>
-    <item>
-      <title>[논문] Content-aware Unsupervised Deep Homography Estimation and Its Enxtensions</title>
       <link>https://russellgeum.github.io/posts/2022-07-31/</link>
       <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/2022-07-31/</guid>
@@ -330,6 +321,13 @@ Contribution ViT와 MLP 믹서의 그래디언트 필드는 매우 날카로운 
 Related Works 프레임 레벨 VIS tracking by segmentation 방법 복잡한 data association 알고리즘이 필요 temporal context를 추출하는게 한계가 있음 object occlusion을 핸들링하지 못함 클립 레벨 VIS clip by clip으로 segmentation and tracking 프레임 레벨 VIS보다 long range temporal context를 추출 가능 그러나 실시간성이 부족해서 속도가 느림 Contribution EfficientVIS</description>
     </item>
     <item>
+      <title>[논문] Video Object Segmentation using Space-Time Memory Networks</title>
+      <link>https://russellgeum.github.io/posts/2021-05-12/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/2021-05-12/</guid>
+      <description>Motivation 준지도 학습에서 문제에 따라, 중간단계 예측과 함께 사용 가능한 정보는 풍부하다. 기존의 방법에서는 이러한 아이디어를 활용할 수 없었다. 논문은 메모리 네트워크를 통해, 가능한 모든 소수로부터 관련된 정보를 읽어 학습하고자 한다. 과거 프레임과 마스크가 외부 메모리를 형성하고, 현재 프레임이 쿼리로서 메모리 속 마스크 정보를 사용하여 세그멘테이션을 수행함 구체적으로 쿼리와 메모리는 피처 스페이스에서 매칭이 된다. (모든 space-time 픽셀 지점에서) Related Works 이전 프레임에서 형상을 추출하고 전파하는 방식 외관 변화에 더 잘 대처하나, 오클루션이나 에러 드리프트의 러버스트가 낮을 수 있다.</description>
+    </item>
+    <item>
       <title>[논문] Multi-view Optimization of Local Feature Geometry</title>
       <link>https://russellgeum.github.io/posts/2021-04-25/</link>
       <pubDate>Sun, 25 Apr 2021 00:00:00 +0000</pubDate>
@@ -423,11 +421,13 @@ Generative
 이 방식은 계산량이 많음, 그리고 representation learning이 꼭 필요하지는 않음 Discriminative supervised learning에서 사용된 방법과 비한 오브젝티브 펑션이 있고, 이를 통해 reprsentation을 학습함 그러나 unlabeld dataset으로부터 얻은 label과 input 사이에서 pretext task를 수행해야함 최근의 discriminative 방식은 contrastive learning에 근거한 방법이 많음 (CPC, CMC, CPC v2 등등) Contribution representation learning에서 data augmentation에 대한 체계적인 고민이 없었음</description>
     </item>
     <item>
-      <title>[논문] Video Object Segmentation using Space-Time Memory Networks</title>
-      <link>https://russellgeum.github.io/posts/2021-05-12/</link>
+      <title>[논문] Content-aware Unsupervised Deep Homography Estimation and Its Enxtensions</title>
+      <link>https://russellgeum.github.io/posts/2021-09-31/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://russellgeum.github.io/posts/2021-05-12/</guid>
-      <description>Motivation 준지도 학습에서 문제에 따라, 중간단계 예측과 함께 사용 가능한 정보는 풍부하다. 기존의 방법에서는 이러한 아이디어를 활용할 수 없었다. 논문은 메모리 네트워크를 통해, 가능한 모든 소수로부터 관련된 정보를 읽어 학습하고자 한다. 과거 프레임과 마스크가 외부 메모리를 형성하고, 현재 프레임이 쿼리로서 메모리 속 마스크 정보를 사용하여 세그멘테이션을 수행함 구체적으로 쿼리와 메모리는 피처 스페이스에서 매칭이 된다. (모든 space-time 픽셀 지점에서) Related Works 이전 프레임에서 형상을 추출하고 전파하는 방식 외관 변화에 더 잘 대처하나, 오클루션이나 에러 드리프트의 러버스트가 낮을 수 있다.</description>
+      <guid>https://russellgeum.github.io/posts/2021-09-31/</guid>
+      <description>Motivation 기존 뎁스 추정은 correspondence estimation으로 풀었다. 그러나 이 과정에는 문제가 있음
+Conventional 방법은 텍스쳐가 약하거나, non-Lambertian 표면에서 문제가 생김 딥러닝 기반은 뎁스 consistency가 일정하지 않고, photometric consistency에서 3D 정보를 제대로 반영하지 못하는 문제 이 논문은 NeRF의 힘을 빌려, 멀티 뷰 스테레오 뎁스 추정을 하고자 함
+correspondence estimation과 corr view depth reprojection 최적화 대신에, 이 논문은 다이렉트로 부피를 최적화함 → 그런데 NeRF에서는 shape-radiance ambiguity 문제가 있음. 이를 해결하기 위해 뎁스 프라이어 기반의 NeRF 훈련 가이던스를 제안함 Related Work Conventional 방법은 textuless, non-lambertian 표면에서 문제가 발생 Learning based 방법은 depth consistency 일정하지 않고, photometric loss가 3D 정보를 반영하지 못함 Contribution Depth consistency를 해결하기 위한 제안 방법</description>
     </item>
   </channel>
 </rss>
