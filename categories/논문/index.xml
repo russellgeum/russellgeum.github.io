@@ -102,12 +102,9 @@ Motivation Large Language Models (LLMs) have demonstrated remarkable results for
       <link>https://russellgeum.github.io/posts/2021-09-31/</link>
       <pubDate>Sun, 31 Jul 2022 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/2021-09-31/</guid>
-      <description>Motivation 기존 뎁스 추정은 correspondence estimation으로 풀었다. 그러나 이 과정에는 문제가 있음. 어떤 문제?
-conventional 방법은 텍스쳐가 약하거나, non-Lambertian 표면에서 문제가 생김
-딥러닝 기반은 뎁스 consistency가 일정하지 않고, photometric consistency에서 3D 정보를 제대로 반영하지 못하는 문제
-이 논문은 NeRF의 힘을 빌려, 멀티 뷰 스테레오 뎁스 추정을 하고자 함. 어떻게?
-correspondence estimation과 corr view depth reprojection 최적화 대신에, 이 논문은 다이렉트로 부피를 최적화함
-→ 그런데 NeRF에서는 shape-radiance ambiguity 문제가 있음. 이를 해결하기 위해 뎁스 프라이어 기반의 NeRF 훈련 가이던스를 제안함</description>
+      <description>Motivation 기존 뎁스 추정은 correspondence estimation으로 풀었다. 그러나 이 과정에는 문제가 있음
+Conventional 방법은 텍스쳐가 약하거나, non-Lambertian 표면에서 문제가 생김 딥러닝 기반은 뎁스 consistency가 일정하지 않고, photometric consistency에서 3D 정보를 제대로 반영하지 못하는 문제 이 논문은 NeRF의 힘을 빌려, 멀티 뷰 스테레오 뎁스 추정을 하고자 함
+correspondence estimation과 corr view depth reprojection 최적화 대신에, 이 논문은 다이렉트로 부피를 최적화함 → 그런데 NeRF에서는 shape-radiance ambiguity 문제가 있음. 이를 해결하기 위해 뎁스 프라이어 기반의 NeRF 훈련 가이던스를 제안함 Related Work Conventional 방법은 textuless, non-lambertian 표면에서 문제가 발생 Learning based 방법은 depth consistency 일정하지 않고, photometric loss가 3D 정보를 반영하지 못함 Contribution Depth consistency를 해결하기 위한 제안 방법</description>
     </item>
     <item>
       <title>[논문] Content-aware Unsupervised Deep Homography Estimation and Its Enxtensions</title>
