@@ -247,6 +247,17 @@ Long-Shot Temporal Contrastive Learning
 레이블링이 되지 않은 비디오 B를 입력으로 받는다. 비디오 B를 랜덤하게 숏클립과 롱클립으로 샘플링해서 나눈다. 프레임의 수는 같으나, 시간 간격이 달라서 롱클립이 더 긴 범위의 비디오 표현을 담고 있다.</description>
     </item>
     <item>
+      <title>[논문]Self-Supervised Learning of Compressed Video Representation</title>
+      <link>https://russellgeum.github.io/posts/review/2021-06-10/</link>
+      <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/review/2021-06-10/</guid>
+      <description>Motivation 효율적으로 비디오 표현 학습을 하는 방법을 고민
+Related Work 이전 연구들은 비디오 프레임을 프로세싱하기 전에 JPEG 같은 형태로 디코딩하여 저장하고 representation 학습을 하였음. 이것은 스토리지를 많이 요구하고, 대규모 트레이닝에 비효율적임. Decoded frame없이 학습할 수 있었지만, supervised 기반이었지, self-supervised는 관심이 덜했음
+Contribution 압측된 비디오 포맷에서 직접 비디오 표현 학습을 한다. 압축된 비디오는 두 가지 고유한 특성이 있음, 일단 GOP란? MPEG 포맷을 위해 영상 프레임의 덩어리를 가리킴
+GOP(Group Of Picture)
+왜 압축된 비디오가 유리할까?</description>
+    </item>
+    <item>
       <title>[논문] When Does Contrastive Visual Representation Learning Work</title>
       <link>https://russellgeum.github.io/posts/review/2021-05-31/</link>
       <pubDate>Mon, 31 May 2021 00:00:00 +0000</pubDate>
@@ -379,7 +390,34 @@ Related Work 이미 자연어 처리에서는 지배적인 방법이다.</descri
       <description>용어의 정의 Pretext task: represenation learning을 위해 수행되는 태스크 Downstream task: pretext task로 얻은 파라미터를 동해 본격 풀고자 하는 문제를 푸는 것 Motivation 모델의 표현력을 극대로 끌어올리는 방법에 대한 연구, 특히 이를 효율적으로 할 수 있을까?
 Related Work Visual representation learning의 non supervision 관점에서 두 가지 메인스트림이 있음
 Generative
-이 방식은 계산량이 많음, 그리고 representation learning이 꼭 필요하지는 않음 Discriminative supervised learning에서 사용된 방법과 비한 오브젝티브 펑션이 있고, 이를 통해 reprsentation을 학습함 그러나 unlabeld dataset으로부터 얻은 label과 input 사이에서 pretext task를 수행해야함 최근의 discriminative 방식은 contrastive learning에 근거한 방법이 많음 (CPC, CMC, CPC v2 등등) Contribution representation learning에서 data augmentation에 대한 체계적인 고민이 없었음</description>
+이 방식은 계산량이 많음, 그리고 representation learning이 꼭 필요하지는 않음 Discriminative supervised learning에서 사용된 방법과 비한 오브젝티브 펑션이 있고, 이를 통해 reprsentation을 학습함 그러나 unlabeld dataset으로부터 얻은 label과 input 사이에서 pretext task를 수행해야함 최근의 discriminative 방식은 contrastive learning에 근거한 방법이 많음 (CPC, CMC, CPC v2 등등) Contribution representation learning에서 data augmentation에 대한 체계적인 고민이 없었음.</description>
+    </item>
+    <item>
+      <title>[논문] Transformer is All You need, Multimodal Multitask Learning with a Unified Transformer</title>
+      <link>https://russellgeum.github.io/posts/review/2021-02-25/</link>
+      <pubDate>Thu, 25 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/review/2021-02-25/</guid>
+      <description>Motivation UniT는 비전에서부터 자연어까지 명백히 다른 도메인의 태스크들을 동시에 학습하는 모델이다. 모달리티 입력을 인코딩해서, 디코더를 통해 각 태스크에 맞는 예측을 진행한다. 각 태스크에 맞는 로스와 함께 엔드 투 엔드로 학습을 한다. 핵심은 이전 논문과는 다르게 이 모델은 태스크 스페시픽한 파인튜닝 없이도 모델의 파라미터를 공유한다. 그럼에도 불구하고 서로 다른 도메인 문제를 핸들링할 수 있다. 트랜스포머는 자연어나 비전에서의 다운스트림 태스크에 매우 큰 성능을 보여주고 있다. 최근에 비전 + 자연어 태스크에서 좋은 성능을 보여주었지만, 아직까지 트랜스포머를 통해 서로 다른 도메인 태스크를 연결하는 시도는 잘 없었다.</description>
+    </item>
+    <item>
+      <title>[논문] TCLR: Temporal Contrastive Learning for Video Representation</title>
+      <link>https://russellgeum.github.io/posts/review/2021-02-22/</link>
+      <pubDate>Mon, 22 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/review/2021-02-22/</guid>
+      <description>Motivation 비디오 레프리젠테이션 러닝에서 쓰일만한 두 가지 콘트라스티브 러닝 프레임워크를 제안. 첫 번째 로스는 같은 비디오에서 겹치지 않는 클립 간의 콘트라스티브 러닝. 두 번째 로스는 피처의 시간적 다양성을 위해서 입력 클립의 피처맵에서 타임 스탬프 간을 구분하는 콘트라스티브 러닝. 좋은 표현 학습은 다운스트림 태스크의 성능을 좋게 만들 수 있음
+Related Work 생략
+Contribution Local-Local Temporal Contrastive Learning
+같은 비디오에서 같은 local timestamp의 (augmentation를 먹이더라도) 비디오 클립은 서로 attract 같은 비디오에서 다른 local timestamp의 비디오 클립은 서로 repel</description>
+    </item>
+    <item>
+      <title>[논문] Spatiotemporal Contrastive Video Representation Learning</title>
+      <link>https://russellgeum.github.io/posts/review/2021-02-15/</link>
+      <pubDate>Mon, 15 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/review/2021-02-15/</guid>
+      <description>Motivation 비디오의 비지도 표현 학습을 위해, 시간-공간적 맥락에서 contrastive learning을 적용 풍부한 표현 학습을 위해 효과적인 spatial-tempral augmentation 방법을 연구 Related Work 생략
+Contribution Contrasitve learning
+임베딩 스페이스의 피처 벡터들을 쫙 나열한 다음에 유사한 피처들은 거리가 가깝게끔 학습 (유사도가 낮은 것은 거리가 먼 것이므로 패널티를 주지 않음) 이를 통해서 같은 비디오의 tempral distant가 있는 두 비디오 클립의 encoder는 attract하고, 다른 비디오는 repel하게끔 학습 (SimCLR 참고)
+Temporal sampling strategy, consistenc spatial augmentation</description>
     </item>
     <item>
       <title>[논문] Content-aware Unsupervised Deep Homography Estimation and Its Enxtensions</title>
