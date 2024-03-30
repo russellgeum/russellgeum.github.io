@@ -138,6 +138,14 @@ Hierarchical augmentation invariance</description>
 DVP는 비디오 처리에서 임플리싯하게 비디오 일관성을 주기 위해 사용되는 성질들을 일컬음</description>
     </item>
     <item>
+      <title>[논문] Learning Optical Flow, Depth, and Scene FLow without Real-world Labels</title>
+      <link>https://russellgeum.github.io/posts/review/2022-01-30/</link>
+      <pubDate>Sun, 30 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/review/2022-01-30/</guid>
+      <description>Motivation Depth, Sceneflow를 동시에 푸는 것은 ill-posed 문제, 수 많은 해가 존재함 먼저 옵티컬 플로우를 추정하고, 알려진 포즈와 추정한 옵티컬 플로우를 통해 initial depth를 계산한 후, sceneflow, depth를 refinement하는 파이프라인을 제안 (그러니까 원 스테이지로는 하기가 힘드니 투 스테이지로 해보겠다는 이야기) Related Works 비디오 기반의 SSL를 통한 3D perception 학습들은 아래의 네 가지 태스크로 나눔
+Ego-motion estimation Monocular Depth estimation → Scale ambiguity, Static assumption Opticalflow estimation Sceneflow estimation → Can not handle sceneflow from opticalflow esitmator (indirectly estimation), stereo manner at training time 각각 개별 태스크에서 우수한 성능을 보이지만, scale ambuiguity 문제가 있음.</description>
+    </item>
+    <item>
       <title>[논문] PolyViT, Co-training Vision Transformers on Images, Videos and Audio</title>
       <link>https://russellgeum.github.io/posts/review/2021-11-20/</link>
       <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
