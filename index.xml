@@ -23,6 +23,15 @@ llama.cpp Orion-14B 모델 Orion-14B-Chat in HuggingFace 추론 환경 CMake 설
 import torch from transformers import AutoModelForCausalLM, AutoTokenizer from transformers.generation.utils import GenerationConfig tokenizer = AutoTokenizer.from_pretrained(&amp;#34;OrionStarAI/Orion-14B&amp;#34;, use_fast=False, trust_remote_code=True) model = AutoModelForCausalLM.</description>
     </item>
     <item>
+      <title>[논문] Layer Sharing for Parameter-EFficient Trasnformer</title>
+      <link>https://russellgeum.github.io/posts/review/2024-04-04/</link>
+      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/review/2024-04-04/</guid>
+      <description>개요 이 글은 Qualcomm의 심규홍 박사님이 발표해주신 자료를 토대로 작성한다.
+대상: 트랜스포머를 이해하고 있는 개발자들을 위한 세미나
+Motivation 트랜스포머 애플리케이션은 서버 베이스 모델에서는 활발하게 사용되고 있다. 이제 모바일 베이스로 들어갈려고 한다. 트랜스포머는 scaling-law를 따른다. 더 크고, 더 많이 쌓을수록 더 좋은 성능이 나온다. 따라서 돈을 들이면 성능이 보장된다. 그 예시가 LLM이다. 그러나 Efficiecy 관점에서 충분히 고민을 해봐야할 문제가 많다. RAM 사이즈, NPU 퍼포먼스, Cache 사이즈 등 고려해야 할 사항이 많다. On-device LLM에 대한 사이즈가 어느정도 적절할까?</description>
+    </item>
+    <item>
       <title>[논문] Survey: Large Multimodal Models</title>
       <link>https://russellgeum.github.io/posts/review/2024-02-04/</link>
       <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
