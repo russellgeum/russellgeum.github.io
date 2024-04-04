@@ -11,12 +11,12 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 04 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://russellgeum.github.io/categories/%EB%85%BC%EB%AC%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[논문] Layer Sharing for Parameter-EFficient Trasnformer</title>
       <link>https://russellgeum.github.io/posts/review/2024-04-04/</link>
-      <pubDate>Sun, 04 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 04 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/review/2024-04-04/</guid>
       <description>개요 이 글은 Qualcomm의 심규홍 박사님이 발표해주신 자료를 토대로 작성한다.
 대상: 트랜스포머를 이해하고 있는 개발자들을 위한 세미나
