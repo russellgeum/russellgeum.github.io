@@ -317,10 +317,8 @@ Related Works 프레임 레벨 VIS tracking by segmentation 방법 복잡한 dat
       <link>https://russellgeum.github.io/posts/review/2021-05-29/</link>
       <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/review/2021-05-29/</guid>
-      <description>Motivation 모노큘라 시퀀스에서 3D scene flow 추정 문제는 근본적으로 ill-posed 문제 → 현재의 정확도에는 한계가 있고, 효율성 / 리얼 타임에도 문제가 있음
-(Hur의 이전 연구) 이전에 제시한 모델의 성능과 real-time 이슈를 더 끌어 올리기 위한 연구
-Related Works 이전에는 이미지 2장으로 태스크를 수행함 → 그러나 multiple consecutive frame이 리얼 월드 시나리오에 더 알맞음
-물론 Joint learning을 하면서 또 multi-frame을 활용하긴 했으나, 실행 시간이 느린 문제 → 더 빠르게 만들 필요가 있음</description>
+      <description>Motivation 모노큘라 시퀀스에서 3D scene flow 추정 문제는 근본적으로 ill-posed 문제 → 현재의 정확도에는 한계가 있고, 효율성 / 리얼 타임에도 문제가 있음 (Hur의 이전 연구). 이전에 제시한 모델의 성능과 real-time 이슈를 더 끌어 올리기 위한 연구
+Related Works 이전에는 이미지 2장으로 태스크를 수행함 → 그러나 multiple consecutive frame이 리얼 월드 시나리오에 더 알맞음. 물론 Joint learning을 하면서 또 multi-frame을 활용하긴 했으나, 실행 시간이 느린 문제 → 더 빠르게 만들 필요가 있음</description>
     </item>
     <item>
       <title>[논문] Video Object Segmentation using Space-Time Memory Networks</title>
