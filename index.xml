@@ -11,10 +11,19 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://russellgeum.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[CS] GPU에 관련한 용어</title>
+      <title>[CS] GPU와 CUDA (2)</title>
+      <link>https://russellgeum.github.io/posts/devops/2024-06-26/</link>
+      <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/devops/2024-06-26/</guid>
+      <description>호스트와 디바이스 호스트
+호스트는 일반적으로 CPU를 의미한다. 따라서 호스트 코드는 CPU에서 실행되는 코드를 의미한다. 또한 호스트 메모리는 CPU가 사용하는 시스템 메모리이다. (DRAM) 디바이스
+디바이스는 일반적으로 GPU를 의미한다. 따라서 디바이스 코드는 GPU에서 실행되는 코드를 의미한다. 또한 디바이스 코드는 GPU가 사용하는 GPU 메모리이다. CUDA 프로그램 CUDA 프로그램은 호스트 코드와 디바이스 코드로 구성된다. 프로그램 실행 시 처음 호출되는 코드는 CPU에서 프로세스를 할당하기 때문에, 호스트 코드가 통상 같이 있다. CUDA 프로그램에서 호스트 코드는 gcc와 같은 컴파일러로, 디바이스 코드는 NVCC 컴파일러로 컴파일한다.</description>
+    </item>
+    <item>
+      <title>[CS] GPU와 CUDA (1)</title>
       <link>https://russellgeum.github.io/posts/devops/2024-04-06/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/devops/2024-04-06/</guid>
