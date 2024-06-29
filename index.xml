@@ -11,8 +11,23 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Jun 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 29 Jun 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://russellgeum.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[CS] GPU와 CUDA (4)</title>
+      <link>https://russellgeum.github.io/posts/devops/2024-06-29/</link>
+      <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/devops/2024-06-29/</guid>
+      <description>CUDA 스레드 계층 스레드 CUDA 스레드 계층에서 가장 작은 단위는 스레드이다. 따라서 CUDA 연산을 수행하거나, 코어를 사용하는 기본 단위이다. 커널 호출 시, CUDA 커널 코드는 모든 스레드에 공유된다. 각 스레드는 커널을 독립적으로 실행한다.
+워프 CUDA 스레드 계층의 두 번째 계층은 워프이다. 워프는 32개 스레드를 하나로 묶은 단위이다. 중요한 점은 워프는 디바이스에서 하나의 제어 장치에 의해 제어된다. GPU의 SIMT 구조에서 멀티 스레드 단위가 바로 워프이다. 이 말은 1개의 명령어에 의해 32개 스레드가 동시에 움직이는 것을 의미한다.</description>
+    </item>
+    <item>
+      <title>[CS] GPU와 CUDA (3)</title>
+      <link>https://russellgeum.github.io/posts/devops/2024-06-28/</link>
+      <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/devops/2024-06-28/</guid>
+      <description>벡터 합을 구하는 호스트 프로그램 #include &amp;lt;stdio.h&amp;gt; #inlcude &amp;lt;stdlib.h&amp;gt; #include &amp;lt;string.h&amp;gt; #define NUM_DATA 1024 int main(void) { int* a, * b, *c; int memSize = sizeof(int) * NUM_DATA a = new int[NUM_DATA]; memset(a, 0, memSize); b = new int[NUM_DATA]; memset(b, 0, memSize); c = new int[NUM_DATA]; memset(c, 0, memSize); for (int i = 0; i &amp;lt; NUM_DATA; i++) { a[i] = rand() % 10; b[i] = rand() % 10; } for (int i = 0; i &amp;lt; NUM_DATA; i++) { c[i] = a[i] + b[i]; } delete[] a; delete[] b; delete[] c; } 벡터 합을 구하는 디바이스 프로그램 #include &amp;#34;cuda_runtime.</description>
+    </item>
     <item>
       <title>[CS] GPU와 CUDA (2)</title>
       <link>https://russellgeum.github.io/posts/devops/2024-06-26/</link>
