@@ -26,7 +26,7 @@
       <link>https://russellgeum.github.io/posts/devops/2024-06-28/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/devops/2024-06-28/</guid>
-      <description>벡터 합을 구하는 호스트 프로그램 #include &amp;lt;stdio.h&amp;gt; #inlcude &amp;lt;stdlib.h&amp;gt; #include &amp;lt;string.h&amp;gt; #define NUM_DATA 1024 int main(void) { int* a, * b, *c; int memSize = sizeof(int) * NUM_DATA a = new int[NUM_DATA]; memset(a, 0, memSize); b = new int[NUM_DATA]; memset(b, 0, memSize); c = new int[NUM_DATA]; memset(c, 0, memSize); for (int i = 0; i &amp;lt; NUM_DATA; i++) { a[i] = rand() % 10; b[i] = rand() % 10; } for (int i = 0; i &amp;lt; NUM_DATA; i++) { c[i] = a[i] + b[i]; } delete[] a; delete[] b; delete[] c; } 벡터 합을 구하는 디바이스 프로그램 #include &amp;#34;cuda_runtime.</description>
+      <description>벡터 합을 구하는 호스트 프로그램 #include &amp;lt;stdio.h&amp;gt; #inlcude &amp;lt;stdlib.h&amp;gt; #include &amp;lt;string.h&amp;gt; #define NUM_DATA 1024 int main(void) { int* a, * b, * c; int memSize = sizeof(int) * NUM_DATA a = new int[NUM_DATA]; memset(a, 0, memSize); b = new int[NUM_DATA]; memset(b, 0, memSize); c = new int[NUM_DATA]; memset(c, 0, memSize); for (int i = 0; i &amp;lt; NUM_DATA; i++) { a[i] = rand() % 10; b[i] = rand() % 10; } for (int i = 0; i &amp;lt; NUM_DATA; i++) { c[i] = a[i] + b[i]; } delete[] a; delete[] b; delete[] c; } 벡터 합을 구하는 디바이스 프로그램 #include &amp;#34;cuda_runtime.</description>
     </item>
     <item>
       <title>[CS] GPU와 CUDA (2)</title>
