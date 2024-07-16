@@ -11,20 +11,29 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://russellgeum.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[CS] GPU와 CUDA (5)</title>
+      <title>[CS] GPU와 CUDA (6) - CUDA 실행 모델</title>
+      <link>https://russellgeum.github.io/posts/devops/2024-07-16/</link>
+      <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/devops/2024-07-16/</guid>
+      <description>GPU 아키텍처 SM: 스트리밍 멀티프로세서 하나의 GPU는 SM이라는 물리적 구조를 여러 개 포함한다. SM은 여러 CUDA 코어를 가진 연산 장치다. Fermi 아키텍처는 하나의 SM에 32개의 CUDA 코어를 가지고 있다. SM에는 CUDA 코어말고 레지스터, 공유 메모리, L1 캐시 등이 포함된다.
+CUDA 코어 CUDA 코어는 GPU의 가장 기본이 되는 프로세싱 유닛이다. 코어 안에는 FP 연산기, INT 연산기 등이 있으며, CUDA 프로그램의 동작 단위가 스레드이므로, 스레드 1개에 CUDA 코어 1개가 할당된다.
+CUDA 스레드 계층과 GPU 하드웨어 간단한 요약 1 스레드 = 1 코어 32개 스레드가 모여 1개의 워프이다.</description>
+    </item>
+    <item>
+      <title>[CS] GPU와 CUDA (5) - 스레드 레이아웃</title>
       <link>https://russellgeum.github.io/posts/devops/2024-07-03/</link>
       <pubDate>Wed, 03 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/devops/2024-07-03/</guid>
       <description>스레드 레이아웃 스레드 레이아웃 결정 앞서 CUDA 커널의 레이아웃은 그리드와 블록의 형태로 결정한다고 하였다.
 구체적으로 다음의 과정을 따른다.
 블록 형태 결정 (즉, 스레드를 어떻게 배치할껀지 결정) 데이터의 크기 및 블록 형태에 따라 그리드 형태 결정 블록 형태는 커널의 알고리즘 특성과 GPU 환경을 고려하여야 한다. 이때 레지스터, 공유 메모리 크기 등도 고려해야 할 요소이다.
-다시 큰 벡터의 연산 커널 벡터 차원이 1,024보다 크면 블록을 여러 개 지정해야 한다. 하나의 블록이었다면, 각 스레드가 벡터의 첫 번째 원소부터 담당하여 연산한다.</description>
+큰 벡터의 합을 연산하는 CUDA 커널 (2) 벡터 차원이 1,024보다 크면 블록을 여러 개 지정해야 한다. 하나의 블록이었다면, 각 스레드가 벡터의 첫 번째 원소부터 담당하여 연산한다.</description>
     </item>
     <item>
-      <title>[CS] GPU와 CUDA (4)</title>
+      <title>[CS] GPU와 CUDA (4) - CUDA 연산 구조</title>
       <link>https://russellgeum.github.io/posts/devops/2024-06-29/</link>
       <pubDate>Sat, 29 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/devops/2024-06-29/</guid>
@@ -32,14 +41,14 @@
 워프 CUDA 스레드 계층의 두 번째 계층은 워프이다. 워프는 32개 스레드를 하나로 묶은 단위이다. 중요한 점은 워프는 디바이스에서 하나의 제어 장치에 의해 제어된다. GPU의 SIMT 구조에서 멀티 스레드 단위가 바로 워프이다. 이 말은 1개의 명령어에 의해 32개 스레드가 동시에 움직이는 것을 의미한다.</description>
     </item>
     <item>
-      <title>[CS] GPU와 CUDA (3)</title>
+      <title>[CS] GPU와 CUDA (3) - CPU와 GPU의 벡터 합 연산</title>
       <link>https://russellgeum.github.io/posts/devops/2024-06-28/</link>
       <pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/devops/2024-06-28/</guid>
       <description>벡터 합을 구하는 호스트 프로그램 #include &amp;lt;stdio.h&amp;gt; #inlcude &amp;lt;stdlib.h&amp;gt; #include &amp;lt;string.h&amp;gt; #define NUM_DATA 1024 int main(void) { int* a, * b, * c; int memSize = sizeof(int) * NUM_DATA a = new int[NUM_DATA]; memset(a, 0, memSize); b = new int[NUM_DATA]; memset(b, 0, memSize); c = new int[NUM_DATA]; memset(c, 0, memSize); for (int i = 0; i &amp;lt; NUM_DATA; i++) { a[i] = rand() % 10; b[i] = rand() % 10; } for (int i = 0; i &amp;lt; NUM_DATA; i++) { c[i] = a[i] + b[i]; } delete[] a; delete[] b; delete[] c; } 벡터 합을 구하는 디바이스 프로그램 #include &amp;#34;cuda_runtime.</description>
     </item>
     <item>
-      <title>[CS] GPU와 CUDA (2)</title>
+      <title>[CS] GPU와 CUDA (2) - CPU와 GPU 통신</title>
       <link>https://russellgeum.github.io/posts/devops/2024-06-26/</link>
       <pubDate>Wed, 26 Jun 2024 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/devops/2024-06-26/</guid>
@@ -48,7 +57,7 @@
 CUDA 프로그램 CUDA 프로그램은 호스트 코드와 디바이스 코드로 구성된다. 프로그램 실행 시 처음 호출되는 코드는 CPU에서 프로세스를 할당하기 때문에, 호스트 코드가 통상 같이 있다. CUDA 프로그램에서 호스트 코드는 gcc와 같은 컴파일러로, 디바이스 코드는 NVCC 컴파일러로 컴파일한다.</description>
     </item>
     <item>
-      <title>[CS] GPU와 CUDA (1)</title>
+      <title>[CS] GPU와 CUDA (1) - GPU의 연산 개념</title>
       <link>https://russellgeum.github.io/posts/devops/2024-04-06/</link>
       <pubDate>Sat, 06 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/devops/2024-04-06/</guid>
