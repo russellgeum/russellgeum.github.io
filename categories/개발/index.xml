@@ -15,18 +15,18 @@
     <atom:link href="https://russellgeum.github.io/categories/%EA%B0%9C%EB%B0%9C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[개발] Mac에서 llama.cpp를 사용하여 Orion-14B-Chat을 추론하기</title>
-      <link>https://russellgeum.github.io/posts/tech/2024-02-13/</link>
+      <link>https://russellgeum.github.io/tech/2024-02-13/</link>
       <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://russellgeum.github.io/posts/tech/2024-02-13/</guid>
+      <guid>https://russellgeum.github.io/tech/2024-02-13/</guid>
       <description>Orion-14B 본 포스팅은 Orion-14B-Chat을 기준으로 한다.
 llama.cpp Orion-14B 모델 Orion-14B-Chat in HuggingFace 추론 환경 CMake 설치 brew install cmake llama.cpp 환경 클론 git clone https://github.com/ggerganov/llama.cpp cd llama.cpp llama.cpp 환경 빌드 mkdir build cd build cmake .. cmake --build . --config Release Orion-14B 모델 다운로드 허깅페이스의 Orion-14B 모델을 허깅페이스 API로 로컬에 다운로드하려면 아래의 코드를 실행해야 한다.
 import torch from transformers import AutoModelForCausalLM, AutoTokenizer from transformers.generation.utils import GenerationConfig tokenizer = AutoTokenizer.from_pretrained(&amp;#34;OrionStarAI/Orion-14B&amp;#34;, use_fast=False, trust_remote_code=True) model = AutoModelForCausalLM.</description>
     </item>
     <item>
       <title>[개발] Hugo 테마에서 마크다운 텍스트 양쪽 정렬</title>
-      <link>https://russellgeum.github.io/posts/tech/2023-07-24/</link>
+      <link>https://russellgeum.github.io/tech/2023-07-24/</link>
       <pubDate>Mon, 24 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://russellgeum.github.io/posts/tech/2023-07-24/</guid>
+      <guid>https://russellgeum.github.io/tech/2023-07-24/</guid>
       <description>Hugo 텍스트 양쪽 정렬 기본적으로 마크다운 문법은 텍스트 양쪽 정렬을 지원하지 않는다.
 다만 .scss 파일에 몇 줄 코드 추가로 강제 양쪽 정렬을 할 수 있다.
 먼저 아래의 경로로 들어가자.
