@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 13 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://russellgeum.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>개발</title>
+      <link>https://russellgeum.github.io/categories/%EA%B0%9C%EB%B0%9C/</link>
+      <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/categories/%EA%B0%9C%EB%B0%9C/</guid>
+      <description></description>
+    </item>
     <item>
       <title>기술</title>
       <link>https://russellgeum.github.io/categories/%EA%B8%B0%EC%88%A0/</link>
@@ -32,13 +39,6 @@
       <link>https://russellgeum.github.io/categories/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/categories/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>개발</title>
-      <link>https://russellgeum.github.io/categories/%EA%B0%9C%EB%B0%9C/</link>
-      <pubDate>Tue, 13 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://russellgeum.github.io/categories/%EA%B0%9C%EB%B0%9C/</guid>
       <description></description>
     </item>
     <item>
