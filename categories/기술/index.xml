@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>기술 on 5biwan&#39;s BLOG</title>
-    <link>https://russellgeum.github.io/categories/%EA%B8%B0%EC%88%A0/</link>
+    <link>http://localhost:1313/categories/%EA%B8%B0%EC%88%A0/</link>
     <description>Recent content in 기술 on 5biwan&#39;s BLOG</description>
     <image>
       <title>5biwan&#39;s BLOG</title>
-      <url>https://russellgeum.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://russellgeum.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 13 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://russellgeum.github.io/categories/%EA%B8%B0%EC%88%A0/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/%EA%B8%B0%EC%88%A0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[기술] LLM 경량화를 위한 가이드</title>
-      <link>https://russellgeum.github.io/posts/tech/2024-08-13/</link>
+      <link>http://localhost:1313/posts/tech/2024-08-13/</link>
       <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://russellgeum.github.io/posts/tech/2024-08-13/</guid>
+      <guid>http://localhost:1313/posts/tech/2024-08-13/</guid>
       <description>LLM Quantization 이 글은 &amp;ldquo;Maarten Grootendorst&amp;quot;의 허락을 받고 Visual Guide To Quantization 글을 간결하게 설명하였다.
 대형 언어 모델(LLM)은 상용 하드웨어에서 실행하기에는 매우 크다. 이러한 모델은 수십억 개의 파라미터를 보유하며, 일반적으로 추론 속도를 높이기 위해 많은 메모리 용량을 가진 GPU가 필요하다. 따라서 점점 더 많은 연구가 이러한 모델을 더 작게 만드는 것에 초점을 맞추고 있다. 이는 개선된 학습, 어댑터 등의 방법을 통해 이루어집니다. 이 분야에서 주요한 기법 중 하나는 양자화(quantization)라고 부른다.</description>
     </item>
