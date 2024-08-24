@@ -15,9 +15,9 @@
     <atom:link href="https://russellgeum.github.io/categories/%EB%85%BC%EB%AC%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[논문] Survey: Efficient Large Language Models</title>
-      <link>https://russellgeum.github.io/posts/technical/2024-07-29/</link>
+      <link>https://russellgeum.github.io/posts/research/2024-07-29/</link>
       <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://russellgeum.github.io/posts/technical/2024-07-29/</guid>
+      <guid>https://russellgeum.github.io/posts/research/2024-07-29/</guid>
       <description>Efficient Large Language Models Introduction 본 글은 Yizhang Jin et al &amp;ldquo;Efficient Multimodal Large Language Models&amp;rdquo; 서베이에 기반한다.
 2023년 중후반부터 멀티모달 기반 대형 언어 모델(Multimodal Large Language Models, MLMMs)의 발전은 텍스트 기반을 넘어 시각적 이해 및 추론 작업에서 놀라운 성과를 보였다. 그러나 LLM과 마찬가지로 모델 크기가 매우 크고, 훈련 및 추론 비용이 높아 학계와 산업계에서 광범위한 응용을 제한시켰다. 이에 따라 로컬 장치, 엣지 컴퓨팅 등의 요구 사항을 충족하기 위해 효율적이고 경량화된 MLMM을 연구하는 시도가 많아졌다.</description>
     </item>
