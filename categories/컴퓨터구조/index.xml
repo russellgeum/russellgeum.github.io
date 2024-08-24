@@ -23,14 +23,6 @@
 데이터를 읽는 행렬 A, B 기준 결과가 저장되는 행렬 C 기준 C = AB 이 행렬 연산에서 C의 (row, col) 값 계산을 위해서는 A(row, k) B (k, col) 원소들을 불러와야 한다.</description>
     </item>
     <item>
-      <title>[기술] GPU와 CUDA (8) - 공유 메모리</title>
-      <link>https://russellgeum.github.io/posts/technical/2024-08-25/</link>
-      <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://russellgeum.github.io/posts/technical/2024-08-25/</guid>
-      <description>공유 메모리 공유 메모리 사용 방법은 크게 세 가지 케이스로 구분한다.
-L1 캐시: 자주 사용되는 데이터를 직접 분류, 관리하기 어려운 경우 사용자 관리 캐시 1: 개발자가 커널 내 알고리즘의 데이터 접근 패턴을 파악 후, 직접 제어 사용자 관리 캐시 2: 자주 사용하는 데이터의 전역 메모리 접근을 줄이기 위함 스레드 간 공유 메모리와 L1 캐시 활용 방법 공유 메모리 (Shared Memory) 역할 및 특징: 공유 메모리는 각 블록 내 모든 스레드가 접근할 수 있는 고속 메모리 공간이다.</description>
-    </item>
-    <item>
       <title>[기술] GPU와 CUDA (6) - CUDA 실행 모델</title>
       <link>https://russellgeum.github.io/posts/technical/2024-07-16/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
