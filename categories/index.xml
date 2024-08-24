@@ -2,50 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on 5biwan&#39;s BLOG</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://russellgeum.github.io/categories/</link>
     <description>Recent content in Categories on 5biwan&#39;s BLOG</description>
     <image>
       <title>5biwan&#39;s BLOG</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>https://russellgeum.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://russellgeum.github.io/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 22 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://russellgeum.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>개발</title>
-      <link>http://localhost:1313/categories/%EA%B0%9C%EB%B0%9C/</link>
+      <link>https://russellgeum.github.io/categories/%EA%B0%9C%EB%B0%9C/</link>
       <pubDate>Thu, 22 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%EA%B0%9C%EB%B0%9C/</guid>
+      <guid>https://russellgeum.github.io/categories/%EA%B0%9C%EB%B0%9C/</guid>
       <description></description>
     </item>
     <item>
       <title>기술</title>
-      <link>http://localhost:1313/categories/%EA%B8%B0%EC%88%A0/</link>
+      <link>https://russellgeum.github.io/categories/%EA%B8%B0%EC%88%A0/</link>
       <pubDate>Tue, 13 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%EA%B8%B0%EC%88%A0/</guid>
+      <guid>https://russellgeum.github.io/categories/%EA%B8%B0%EC%88%A0/</guid>
       <description></description>
     </item>
     <item>
       <title>논문</title>
-      <link>http://localhost:1313/categories/%EB%85%BC%EB%AC%B8/</link>
+      <link>https://russellgeum.github.io/categories/%EB%85%BC%EB%AC%B8/</link>
       <pubDate>Mon, 29 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%EB%85%BC%EB%AC%B8/</guid>
+      <guid>https://russellgeum.github.io/categories/%EB%85%BC%EB%AC%B8/</guid>
       <description></description>
     </item>
     <item>
       <title>컴퓨터구조</title>
-      <link>http://localhost:1313/categories/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/</link>
+      <link>https://russellgeum.github.io/categories/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/</link>
       <pubDate>Thu, 25 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/</guid>
+      <guid>https://russellgeum.github.io/categories/%EC%BB%B4%ED%93%A8%ED%84%B0%EA%B5%AC%EC%A1%B0/</guid>
       <description></description>
     </item>
     <item>
       <title>생각</title>
-      <link>http://localhost:1313/categories/%EC%83%9D%EA%B0%81/</link>
+      <link>https://russellgeum.github.io/categories/%EC%83%9D%EA%B0%81/</link>
       <pubDate>Mon, 11 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/%EC%83%9D%EA%B0%81/</guid>
+      <guid>https://russellgeum.github.io/categories/%EC%83%9D%EA%B0%81/</guid>
       <description></description>
     </item>
   </channel>
