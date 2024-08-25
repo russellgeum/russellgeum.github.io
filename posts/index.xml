@@ -15,9 +15,9 @@
     <atom:link href="https://russellgeum.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>[기술] GPU와 CUDA (8) - 공유 메모리</title>
-      <link>https://russellgeum.github.io/posts/research/2024-08-25/</link>
+      <link>https://russellgeum.github.io/posts/technical/2024-08-25/</link>
       <pubDate>Sun, 25 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>https://russellgeum.github.io/posts/research/2024-08-25/</guid>
+      <guid>https://russellgeum.github.io/posts/technical/2024-08-25/</guid>
       <description>공유 메모리 공유 메모리 사용 방법은 크게 세 가지 케이스로 구분한다.
 L1 캐시: 자주 사용되는 데이터를 직접 분류, 관리하기 어려운 경우 사용자 관리 캐시 1: 개발자가 커널 내 알고리즘의 데이터 접근 패턴을 파악 후, 직접 제어 사용자 관리 캐시 2: 자주 사용하는 데이터의 전역 메모리 접근을 줄이기 위함 스레드 간 공유 메모리와 L1 캐시 활용 방법 공유 메모리 (Shared Memory) 역할 및 특징: 공유 메모리는 각 블록 내 모든 스레드가 접근할 수 있는 고속 메모리 공간이다.</description>
     </item>
@@ -61,15 +61,6 @@ NVIDIA 드라이버 설치 GPU를 활용한다면, 엔비디아 드라이버는 
       <link>https://russellgeum.github.io/posts/technical/2024-07-16/</link>
       <pubDate>Tue, 16 Jul 2024 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/technical/2024-07-16/</guid>
-      <description>GPU 아키텍처 SM: 스트리밍 멀티프로세서 하나의 GPU는 SM이라는 물리적 구조를 여러 개 포함한다. SM은 여러 CUDA 코어를 가진 연산 장치다. Fermi 아키텍처는 하나의 SM에 32개의 CUDA 코어를 가지고 있다. SM에는 CUDA 코어말고 레지스터, 공유 메모리, L1 캐시 등이 포함된다.
-CUDA 코어 CUDA 코어는 GPU의 가장 기본이 되는 프로세싱 유닛이다. 코어 안에는 FP 연산기, INT 연산기 등이 있으며, CUDA 프로그램의 동작 단위가 스레드이므로, 스레드 1개에 CUDA 코어 1개가 할당된다.
-CUDA 스레드 계층과 GPU 하드웨어 간단한 요약 1 스레드 = 1 코어 32개 스레드가 모여 1개의 워프이다.</description>
-    </item>
-    <item>
-      <title>[기술] GPU와 CUDA (6) - CUDA 실행 모델</title>
-      <link>https://russellgeum.github.io/posts/technical/2024-07-06/</link>
-      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>https://russellgeum.github.io/posts/technical/2024-07-06/</guid>
       <description>GPU 아키텍처 SM: 스트리밍 멀티프로세서 하나의 GPU는 SM이라는 물리적 구조를 여러 개 포함한다. SM은 여러 CUDA 코어를 가진 연산 장치다. Fermi 아키텍처는 하나의 SM에 32개의 CUDA 코어를 가지고 있다. SM에는 CUDA 코어말고 레지스터, 공유 메모리, L1 캐시 등이 포함된다.
 CUDA 코어 CUDA 코어는 GPU의 가장 기본이 되는 프로세싱 유닛이다. 코어 안에는 FP 연산기, INT 연산기 등이 있으며, CUDA 프로그램의 동작 단위가 스레드이므로, 스레드 1개에 CUDA 코어 1개가 할당된다.
 CUDA 스레드 계층과 GPU 하드웨어 간단한 요약 1 스레드 = 1 코어 32개 스레드가 모여 1개의 워프이다.</description>
