@@ -11,8 +11,20 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 25 Aug 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://russellgeum.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[개발] Mac OS에서 LibTorch 설치 및 빌드</title>
+      <link>https://russellgeum.github.io/posts/technical/2024-10-01/</link>
+      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/technical/2024-10-01/</guid>
+      <description>LibTorch LibTorch는 C++ 인터페이스를 제공하는 PyTorch의 라이브러리이다. 이를 설치하면 PyTorch의 모든 기능을 사용할 수 있다.
+파이썬 기반의 모델 서빙 말고, C++에서 활용 가능한 멀티스레드와 같은 기능을 사용하려면 LibTorch를 설치해야 한다.
+이 작업은 CMakeLists.txt 파일을 통해 빌드하는 방식으로 진행한다. 따라서 CMake를 먼저 설치해야 한다.
+CMake 설치는 인터넷에 많이 나오므로, 그 내용은 생략한다.
+LibTorch 설치 먼저 PyTorch 공식 홈페이지에서 설치 가이드를 참고해 설치한다.
+Locally하게 다운받아도 되지만, 터미널에서 아래 명령을 실행해도 된다. (2.4.1 버전 기준)</description>
+    </item>
     <item>
       <title>[기술] GPU와 CUDA (8) - 공유 메모리</title>
       <link>https://russellgeum.github.io/posts/technical/2024-08-25/</link>
