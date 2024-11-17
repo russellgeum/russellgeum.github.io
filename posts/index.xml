@@ -11,12 +11,12 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 17 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://russellgeum.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>[개발] Mac OS에서 LibTorch 설치 및 빌드</title>
+      <title>Noise-Robust Keyword Spotting throught Self-Supervised Pretraikning</title>
       <link>https://russellgeum.github.io/posts/research/2024-11-17/</link>
-      <pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Nov 2024 00:00:00 +0000</pubDate>
       <guid>https://russellgeum.github.io/posts/research/2024-11-17/</guid>
       <description>Noise-Robust Keyword Spotting throught Self-Supervised Pretraikning 1. Motivation 현대의 음성 비서는 거의 모든 컴퓨터와 스마트 기기에서 사용 가능함 음성 비서는 ASR(자동 음성 인식) 모델을 사용하지만, 이는 계산 비용이 높아 작은 기기에서 실행하기 어려움 대신 키워드 스팟팅(KWS) 알고리즘을 통해 특정 키워드가 발화되었을 때 ASR을 활성화함 현재 최신 KWS 모델들은 지도학습 방식으로 학습되어 많은 양의 레이블된 데이터가 필요한 상황 레이블이 없는 데이터를 활용할 수 있는 자기지도학습의 활용이 필요한 상황 2. Related Works Data2Vec 프레임워크를 사용한 transformer 기반 KWS 모델의 사전학습이 성능 향상에 도움이 된다는 연구가 있었음 하지만 이전 연구는 깨끗한 오디오 입력만을 가정했고, 실제 환경의 노이즈는 고려하지 않았음 ASR 분야에서는 자기지도학습을 통한 노이즈 강건성 연구가 진행되어 왔음 KWS에서는 대부분 지도학습 기반의 multi-style training이나 adversarial training 방식으로 노이즈 강건성을 확보 3.</description>
     </item>
