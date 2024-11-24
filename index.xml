@@ -11,8 +11,29 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://russellgeum.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[논문] BEATS : Audio Pre-Training with Acoustic Tokenizercategories</title>
+      <link>https://russellgeum.github.io/posts/research/2024-11-24/</link>
+      <pubDate>Sun, 24 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/research/2024-11-24/</guid>
+      <description>1. Motivation 최근 자기지도학습(SSL)은 언어, 비전, 음성에서 큰 성과를 보여주고 있지만,
+오디오 도메인에서는 여전히 복원 손실(reconstruction loss)이 주로 사용되고 있다.
+복원 손실은 저수준 시간-주파수 특징을 재현하는 데 초점이 맞춰져,
+고수준의 의미 정보를 제대로 반영하지 못하는 한계가 있다.
+BEATS는 연속적인 오디오 데이터를 이산적(discrete) 라벨로 변환해
+고수준의 의미적 정보를 학습하는 새로운 프레임워크를 제안한다.
+이를 통해 기존 방식보다 효율적이고 의미 중심적인 학습이 가능하도록 한다.
+2. Related Work 오디오 사전 학습은 크게 지도 학습과 자기지도학습으로 나뉜다.</description>
+    </item>
+    <item>
+      <title>[논문] Filterbank Learning for Noise-Robust Small-Footprint Keyword Spotting</title>
+      <link>https://russellgeum.github.io/posts/research/2024-11-18/</link>
+      <pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/research/2024-11-18/</guid>
+      <description>Filterbank Learning for Noise-Robust Small-Footprint Keyword Spotting 1. Motivation 키워드 스포팅(KWS)은 보통 Log-Mel이나 MFCC 같은 수작업 특징을 사용함. 학습 가능한 필터뱅크가 기존 특징을 대체하려는 시도는 있었으나, 큰 성과는 없었음. 필터뱅크 채널 수를 줄이면 학습된 필터뱅크가 성능을 유지하면서도 에너지 소비를 크게 줄일 수 있다는 것을 주장함. 항상 켜져 있는 저자원 KWS 시스템에 특히 중요함. 2. Related Works SincNet: 학습 가능한 필터뱅크를 CNN 기반 KWS에 적용한 연구. 수작업 특징과의 직접 비교는 부족했음. 기존 연구에서는 Log-Mel과 MFCC가 여전히 더 우수하다고 결론지음.</description>
+    </item>
     <item>
       <title>[논문] Noise-Robust Keyword Spotting throught Self-Supervised Pretraikning</title>
       <link>https://russellgeum.github.io/posts/research/2024-11-17/</link>
