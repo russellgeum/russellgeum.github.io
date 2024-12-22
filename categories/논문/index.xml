@@ -11,8 +11,42 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 24 Nov 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://russellgeum.github.io/categories/%EB%85%BC%EB%AC%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[논문] A Multi-Resolution Front-End for End-to-End Speech Anti-Spoofing</title>
+      <link>https://russellgeum.github.io/posts/research/2024-12-22/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/research/2024-12-22/</guid>
+      <description>1. Motivation 기존 음성 신호 분류 작업에서 시간-주파수 해상도의 최적 선택은 성능에 중요한 영향을 미치지만,
+어떤 해상도가 가장 적합한지는 명확하지 않다.
+특히, 스푸핑 방지를 위한 음성 분류에서는 다양한 시간-주파수 스케일이 필요하다.
+기존 연구는 고정된 해상도에서 작업하여 정보 손실 가능성이 있으며,
+이는 분류 성능을 제한할 수 있다.
+이 논문은 다중 해상도 기반의 전처리(front-end) 방식을 제안하여 이러한 문제를 해결하고자 한다.
+2. Related Work 기존 연구에서는 다중 해상도 또는 다중 스케일 구조를 통해 분류 성능을 개선하려는 시도가 있었다.</description>
+    </item>
+    <item>
+      <title>[논문] Sparse Binarization for Fast Keyword Spotting</title>
+      <link>https://russellgeum.github.io/posts/research/2024-12-18/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/research/2024-12-18/</guid>
+      <description>1. Motivation 음성 기반 디바이스와 애플리케이션의 증가로 키워드 스포팅(Keyword Spotting, KWS)은 실시간 음성 인식을 가능하게 하며, 엣지 디바이스에서의 프라이버시와 대역폭 효율성을 높인다.
+엣지 디바이스는 메모리와 연산 속도가 제한되어 있어 KWS 모델의 경량화와 최적화가 필수적이다.
+이 논문에서는 효율적이고 정확한 KWS를 위한 새로운 방법으로 Sparse Binarization을 기반으로 한 모델 SparkNet을 제안한다.
+SparkNet은 기존 최첨단(SOTA) 모델 대비 4배 빠르면서도 더 높은 정확도를 제공하며, 소음 환경에서도 더 강력한 성능을 보여준다.
+2. Related Work Keyword Spotting (KWS) KWS는 음성 데이터를 실시간으로 분석해 특정 단어를 탐지하는 기술이다.</description>
+    </item>
+    <item>
+      <title>[논문] Keyword Transformer: A Self-Attention Model for Keyword Spotting</title>
+      <link>https://russellgeum.github.io/posts/research/2024-12-17/</link>
+      <pubDate>Tue, 17 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/research/2024-12-17/</guid>
+      <description>1. Motivation Transformer 구조는 자연어 처리뿐만 아니라 이미지 처리와 음성 인식 등 다양한 도메인에서 성공적으로 사용되고 있다.
+하지만 키워드 스포팅 분야에서는 주로 Transformer가 기존의 CNN이나 RNN 같은 구조 위에 추가적으로 사용되어 왔다.
+이를 해결하기 위해, 이 논문은 키워드 스포팅에 Transformer를 직접 적용하는 모델인 Keyword Transformer(KWT)를 제안한다.
+KWT는 별도의 사전 학습이나 추가 데이터를 필요로 하지 않으면서 기존의 복잡한 혼합 구조보다 뛰어난 성능을 보이며, Google Speech Commands 데이터셋에서 최고 수준의 정확도를 달성했다.</description>
+    </item>
     <item>
       <title>[논문] BEATS : Audio Pre-Training with Acoustic Tokenizercategories</title>
       <link>https://russellgeum.github.io/posts/research/2024-11-24/</link>
