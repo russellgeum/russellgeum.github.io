@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://russellgeum.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[논문] ReCLAP: Improving Zero Shot Audio Classification by Describing Sounds</title>
+      <link>https://russellgeum.github.io/posts/research/2025-05-16/</link>
+      <pubDate>Fri, 16 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/research/2025-05-16/</guid>
+      <description>1. Motivation CLAP(Contrastive Language-Audio Pre-training) 모델은 제로샷 오디오 분류(ZSAC) 작업에서 우수한 성능을 보이지만, 여전히 표준 지도학습 방법보다 성능이 낮다. 이는 다음 세 가지 주요 이유 때문이다:
+대규모 오디오-캡션 데이터셋 접근의 한계: CLAP은 CLIP과 달리 대규모 오픈소스 오디오-캡션 데이터셋으로 훈련되지 않았기 때문에 다양한 오디오와 언어 상호작용을 완전히 이해하는 능력이 제한된다. 훈련 카테고리 레이블 너머의 일반화 부족: CLAP은 훈련에 사용된 특정 카테고리 레이블을 넘어 일반화하는 데 어려움을 겪는다. 예를 들어, AudioSet에서 &amp;ldquo;Sound of a toothbrush&amp;quot;로 훈련된 모델이 ESC50 데이터셋의 &amp;ldquo;brushing teeth&amp;quot;와 같은 유사한 레이블에 정확히 일반화하지 못할 수 있다.</description>
+    </item>
     <item>
       <title>[논문] A Multi-Resolution Front-End for End-to-End Speech Anti-Spoofing</title>
       <link>https://russellgeum.github.io/posts/research/2024-12-22/</link>
@@ -25,6 +33,13 @@
 이는 분류 성능을 제한할 수 있다.
 이 논문은 다중 해상도 기반의 전처리(front-end) 방식을 제안하여 이러한 문제를 해결하고자 한다.
 2. Related Work 기존 연구에서는 다중 해상도 또는 다중 스케일 구조를 통해 분류 성능을 개선하려는 시도가 있었다.</description>
+    </item>
+    <item>
+      <title>[논문] MATPC: Masked Latent Prediction and Classification for Self Supervised Audio Representation Learning</title>
+      <link>https://russellgeum.github.io/posts/research/2025-04-15/</link>
+      <pubDate>Wed, 18 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/research/2025-04-15/</guid>
+      <description>MATPAC: Masked Latent Prediction and Classification for Self Supervised Audio Representation Learning 1. Motivation 최근 마스크 잠재 예측(masked latent prediction)에 기반한 자기지도 학습(SSL) 방법들이 입력 데이터를 강력한 표현으로 인코딩하는 데 효과적임이 입증되었다. 그러나 학습 과정에서 학습된 잠재 공간을 더 높은 수준의 정보를 추출하도록 변환하면 다운스트림 분류 작업에 더 적합할 수 있다. 이 논문은 두 가지 사전 작업(pretext task)을 결합하여 오디오 표현 학습의 성능을 향상시키는 새로운 방법론인 MATPAC(MAsked latenT Prediction And Classification)을 제안한다.</description>
     </item>
     <item>
       <title>[논문] Sparse Binarization for Fast Keyword Spotting</title>
@@ -757,6 +772,20 @@ Temporal sampling strategy, consistenc spatial augmentation</description>
       <description>Motivation 기존 뎁스 추정은 correspondence estimation으로 풀었다. 그러나 이 과정에는 문제가 있음
 Conventional 방법은 텍스쳐가 약하거나, non-Lambertian 표면에서 문제가 생김 딥러닝 기반은 뎁스 consistency가 일정하지 않고, photometric consistency에서 3D 정보를 제대로 반영하지 못하는 문제 이 논문은 NeRF의 힘을 빌려, 멀티 뷰 스테레오 뎁스 추정을 하고자 함
 correspondence estimation과 corr view depth reprojection 최적화 대신에, 이 논문은 다이렉트로 부피를 최적화함 → 그런데 NeRF에서는 shape-radiance ambiguity 문제가 있음. 이를 해결하기 위해 뎁스 프라이어 기반의 NeRF 훈련 가이던스를 제안함 Related Work Conventional 방법은 textuless, non-lambertian 표면에서 문제가 발생 Learning based 방법은 depth consistency 일정하지 않고, photometric loss가 3D 정보를 반영하지 못함 Contribution Depth consistency를 해결하기 위한 제안 방법</description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://russellgeum.github.io/posts/research/2024-12-23/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/research/2024-12-23/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title></title>
+      <link>https://russellgeum.github.io/posts/research/2025-04-16/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/research/2025-04-16/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>

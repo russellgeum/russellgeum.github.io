@@ -2,7 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://russellgeum.github.io/posts/research/2025-05-16/</loc>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://russellgeum.github.io/posts/research/2024-12-22/</loc>
+    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://russellgeum.github.io/posts/research/2025-04-15/</loc>
     <lastmod>2024-12-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://russellgeum.github.io/posts/research/2024-12-18/</loc>
@@ -233,16 +239,16 @@
     <loc>https://russellgeum.github.io/posts/research/2021-09-31/</loc>
   </url><url>
     <loc>https://russellgeum.github.io/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://russellgeum.github.io/categories/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://russellgeum.github.io/posts/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://russellgeum.github.io/categories/%EB%85%BC%EB%AC%B8/</loc>
-    <lastmod>2024-12-18T00:00:00+00:00</lastmod>
+    <lastmod>2025-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://russellgeum.github.io/categories/%EA%B0%9C%EB%B0%9C/</loc>
     <lastmod>2024-10-01T00:00:00+00:00</lastmod>
@@ -255,6 +261,10 @@
   </url><url>
     <loc>https://russellgeum.github.io/categories/%EC%83%9D%EA%B0%81/</loc>
     <lastmod>2023-12-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://russellgeum.github.io/posts/research/2024-12-23/</loc>
+  </url><url>
+    <loc>https://russellgeum.github.io/posts/research/2025-04-16/</loc>
   </url><url>
     <loc>https://russellgeum.github.io/tags/</loc>
   </url>
