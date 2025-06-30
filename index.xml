@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 16 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://russellgeum.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>[생각] 2025년 상반기 회고</title>
+      <link>https://russellgeum.github.io/posts/essay/2025-06-29/</link>
+      <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>https://russellgeum.github.io/posts/essay/2025-06-29/</guid>
+      <description>1. 일과 삶 2025년 상반기는 바쁜 일정에 몸을 맡기며 살았다. 새로운 분야로 전환하게 되었고, 더 빠른 템포의 환경에서 시작한 것은 신선한 경험이었다. 가장 큰 장점은 비로소 내가 원하던 포지션에서 일할 수 있게 된 것이다. 단점은 회사와 나 모두에게 처음 시도하는 제품이다 보니 시행착오가 많다는 점이다. 이는 개인적인 삶을 누릴 시간이 줄어들 수 있음을 의미한다. 그래도 잘 버텨냈다. 지금 회사에서 많은 성과를 이루며 커리어의 정점을 찍고 싶다. 회사 매출에 기여하고, 기술로 고객의 불편함을 해소하며, 궁극적으로 가치를 창출해 사회에 기여하고자 한다.</description>
+    </item>
     <item>
       <title>[논문] ReCLAP: Improving Zero Shot Audio Classification by Describing Sounds</title>
       <link>https://russellgeum.github.io/posts/research/2025-05-16/</link>
