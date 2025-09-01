@@ -11,18 +11,8 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Sep 2025 00:00:08 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 29 Jun 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://russellgeum.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>[생각] 블로그 템플릿 테스트</title>
-      <link>https://russellgeum.github.io/posts/essay/2025-09-01-template-test/</link>
-      <pubDate>Tue, 02 Sep 2025 00:00:08 +0900</pubDate>
-      <guid>https://russellgeum.github.io/posts/essay/2025-09-01-template-test/</guid>
-      <description>1. 요즘 생각 새로운 블로그 템플릿 시스템을 만들어보았다. 이제 매번 frontmatter를 수동으로 작성할 필요가 없어서 정말 편리하다.
-앞으로는 다음과 같은 방식으로 블로그를 작성할 수 있을 것 같다:
-hugo new --kind=essay 명령어로 에세이 템플릿 사용 hugo new --kind=research 명령어로 논문 리뷰 템플릿 사용 hugo new --kind=technical 명령어로 기술 블로그 템플릿 사용 각 템플릿마다 적합한 구조와 카테고리가 미리 설정되어 있어서 일관성 있는 포스트를 작성할 수 있다.
-2. 요즘 일상 최근에는 개발 환경 최적화에 관심이 많다.</description>
-    </item>
     <item>
       <title>[생각] 2025년 상반기 회고</title>
       <link>https://russellgeum.github.io/posts/essay/2025-06-29/</link>
