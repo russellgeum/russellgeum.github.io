@@ -1,16 +1,16 @@
 ---
 date: {{ .Date }}
-author: "oppenheimer1223"
-title: "[기술] {{ replace .Name "-" " " | title }}"
-categories: "기술"
+author: "5biwan"
+title: "[개발] {{ replace .Name "-" " " | title }}"
+categories: "개발"
 weight: 10
 draft: true
 ---
 
-# 문제 정의
+## 문제 정의
 
-# 해결 방법
+## 해결 방법
 
-# 구현
+## 구현
 
-# 결과
+## 결과

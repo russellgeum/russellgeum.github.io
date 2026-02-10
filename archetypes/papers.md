@@ -1,18 +1,20 @@
 ---
 date: {{ .Date }}
-author: "oppenheimer1223"
+author: "5biwan"
 title: "[논문] {{ replace .Name "-" " " | title }}"
 categories: "논문"
 weight: 10
 draft: true
 ---
 
-# Abstract
+## 1. Motivation
 
-# Introduction
+## 2. Related Work
 
-# Method
+## 3. Proposed Method
 
-# Experiment
+## 4. Experiments
 
-# Conclusion
+## 5. Conclusion & Limitation
+
+## Key References
