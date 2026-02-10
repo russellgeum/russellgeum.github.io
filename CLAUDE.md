@@ -25,7 +25,7 @@ themes/PaperMod/
 ```yaml
 ---
 date: YYYY-MM-DD
-author: "5biwan"
+author: "oppenheimer1223"
 title: "[카테고리] 제목"
 categories: "카테고리명"
 weight: 10
