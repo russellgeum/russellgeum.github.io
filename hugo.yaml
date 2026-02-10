@@ -69,7 +69,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "\U0001F44B Hello, there"
-    Content: I am Hyeongcheol Geum. This site contains my usually thoughts and technical stories of ML/AI. I am a man with many questions about the world. You probably visited my blog for similar reasons. In that sense, I believe we could become good friends. Have a nice day!
+    Content: Hi, I'm Hyeongcheol Geum. This is a space where I share my daily thoughts and technical insights into ML and AI. I've always been someone with a lot of questions about the world, and I imagine you're here because you share that same curiosity. In that sense, I believe we could become great friends. Hope you have a wonderful stay!
 
   socialIcons:
     - name: github
