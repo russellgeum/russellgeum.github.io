@@ -1,6 +1,6 @@
 ---
 date: {{ .Date }}
-author: "5biwan"
+author: "oppenheimer1223"
 title: "[개발] {{ replace .Name "-" " " | title }}"
 categories: "개발"
 weight: 10
