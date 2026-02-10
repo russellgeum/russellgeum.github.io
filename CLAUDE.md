@@ -11,7 +11,7 @@
 content/
   research/    # 논문 리뷰 (categories: "논문")
   essay/       # 에세이/생각 (categories: "생각")
-  technical/   # 기술/개발 (categories: "기술" 또는 "개발")
+  technical/   # 기술/개발 (categories: "개발")
 static/        # 이미지 등 정적 파일
 archetypes/    # 각 카테고리별 템플릿
 themes/PaperMod/
@@ -37,7 +37,7 @@ weight: 10
 |----------|-------------|------------|
 | research | `[논문]`    | `"논문"`   |
 | essay    | `[생각]`    | `"생각"`   |
-| technical| `[기술]` 또는 `[개발]` | `"기술"` 또는 `"개발"` |
+| technical| `[기술]` 또는 `[개발]` | `"개발"` |
 
 ## Research 포스트 마크다운 형식 (논문 리뷰)
 메인 섹션은 반드시 **H2 (`##`)** 로 작성. 서브섹션은 H3 (`###`) 사용.
