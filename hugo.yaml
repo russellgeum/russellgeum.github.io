@@ -17,7 +17,7 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: 5biwan's BLOG
+  title: oppenheimer1223's BLOG
   description: "ExampleSite description"
   keywords: [Blog, Portfolio, PaperMod]
   author: Me # author: ["Me", "You"] # multiple authors
@@ -47,7 +47,7 @@ params:
     # disableFingerprinting: true
 
   label:
-    text: "5biwan's BLOG"
+    text: "oppenheimer1223's BLOG"
     icon: /icon.png
     iconHeight: 20
 
@@ -106,10 +106,6 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: Posts
-      name: Posts
-      url: /Posts/
-      weight: 10
     - identifier: Categories
       name: Categories
       url: /categories/
