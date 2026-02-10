@@ -9,16 +9,16 @@ DATE=$(date +%Y%m%d)
 echo "=== 새 게시글 만들기 ==="
 echo ""
 echo "카테고리를 선택하세요:"
-echo "  1) research  (논문 리뷰)"
+echo "  1) papers    (논문 리뷰)"
 echo "  2) essay     (생각/에세이)"
-echo "  3) technical (기술/개발)"
+echo "  3) dev       (기술/개발)"
 echo ""
 read -p "번호 입력 (1/2/3): " choice
 
 case $choice in
-  1) CATEGORY="research" ;;
+  1) CATEGORY="papers" ;;
   2) CATEGORY="essay" ;;
-  3) CATEGORY="technical" ;;
+  3) CATEGORY="dev" ;;
   *) echo "잘못된 입력입니다."; exit 1 ;;
 esac
 

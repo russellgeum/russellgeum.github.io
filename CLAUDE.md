@@ -9,9 +9,9 @@
 ## Directory Structure
 ```
 content/
-  research/    # 논문 리뷰 (categories: "논문")
+  papers/      # 논문 리뷰 (categories: "논문")
   essay/       # 에세이/생각 (categories: "생각")
-  technical/   # 기술/개발 (categories: "개발")
+  dev/         # 기술/개발 (categories: "개발")
 static/        # 이미지 등 정적 파일
 archetypes/    # 각 카테고리별 템플릿
 themes/PaperMod/
@@ -19,7 +19,7 @@ themes/PaperMod/
 
 ## File Naming
 - 파일명: `YYYYMMDD.md` (예: `20250516.md`)
-- 새 글 생성: `hugo new research/YYYYMMDD.md`
+- 새 글 생성: `hugo new papers/YYYYMMDD.md`
 
 ## Front Matter (공통)
 ```yaml
@@ -35,9 +35,9 @@ weight: 10
 ### 카테고리별 title prefix와 categories 값
 | 카테고리 | title prefix | categories |
 |----------|-------------|------------|
-| research | `[논문]`    | `"논문"`   |
+| papers   | `[논문]`    | `"논문"`   |
 | essay    | `[생각]`    | `"생각"`   |
-| technical| `[기술]` 또는 `[개발]` | `"개발"` |
+| dev      | `[기술]` 또는 `[개발]` | `"개발"` |
 
 ## Research 포스트 마크다운 형식 (논문 리뷰)
 메인 섹션은 반드시 **H2 (`##`)** 로 작성. 서브섹션은 H3 (`###`) 사용.
@@ -72,7 +72,7 @@ front matter 바로 다음에 별도의 논문 제목 heading을 넣지 않는�
 (내용)
 ```
 
-## Technical 포스트 마크다운 형식
+## Dev 포스트 마크다운 형식
 자유 형식. H2 (`##`)를 메인 섹션으로 사용.
 
 ## Images
