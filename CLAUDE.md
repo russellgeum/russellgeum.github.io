@@ -18,8 +18,8 @@ themes/PaperMod/
 ```
 
 ## File Naming
-- 파일명: `YYYYMMDD.md` (예: `20250516.md`)
-- 새 글 생성: `hugo new papers/YYYYMMDD.md`
+- 파일명: `YYMMDD.md` (예: `250516.md`)
+- 새 글 생성: `hugo new papers/YYMMDD.md`
 
 ## Front Matter (공통)
 ```yaml
