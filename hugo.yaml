@@ -9,8 +9,6 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
-
 minify:
   disableXML: true
   minifyOutput: true
@@ -18,10 +16,10 @@ minify:
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: oppenheimer1223's BLOG
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
-  author: Me # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  description: "ML/AI 논문 리뷰, 기술 노트, 그리고 일상의 생각을 기록하는 공간"
+  keywords: [Blog, ML, AI, 논문리뷰, 딥러닝]
+  author: "oppenheimer1223"
+  images: ["/icon.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -89,7 +87,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/russellgeum/russellgeum.github.io/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 

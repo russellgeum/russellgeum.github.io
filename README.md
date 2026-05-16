@@ -106,11 +106,11 @@ git push origin main
 ```
 .
 ├── .github/workflows/   # GitHub Actions 배포 워크플로우
-├── archetypes/          # 글 템플릿 (essay, research, technical)
+├── archetypes/          # 글 템플릿 (essay, papers, dev)
 ├── content/             # 블로그 글 콘텐츠
 │   ├── essay/
-│   ├── research/
-│   └── technical/
+│   ├── papers/
+│   └── dev/
 ├── layouts/             # 레이아웃 커스텀
 ├── public/              # 빌드 결과물
 ├── static/              # 정적 리소스 (이미지 등)
