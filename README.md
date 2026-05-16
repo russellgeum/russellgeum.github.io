@@ -72,8 +72,7 @@ hugo server -D   # http://localhost:1313
 ```
 .
 ├── .github/workflows/   # GitHub Actions 배포 워크플로우
-├── .claude/             # Claude Code 설정 (자동 push 훅 포함)
-├── archetypes/          # 글 템플릿 (essay, papers, dev)
+├── .claude/             # Claude Code 설정 (자동 push 훅, paper-review 스킬)
 ├── content/             # 블로그 글 콘텐츠
 │   ├── papers/          # 논문 리뷰
 │   ├── essay/           # 에세이

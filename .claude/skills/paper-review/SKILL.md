@@ -1,4 +1,9 @@
-사용자가 논문 본문을 제공하면, 이를 분석하여 블로그 포스트를 작성하고 content/papers/에 저장한다.
+---
+name: paper-review
+description: 사용자가 AI/ML 논문의 본문(텍스트, PDF 추출본, abstract+method 등)을 제공하면 5단계 구조로 분석하고 블로그 양식에 맞게 content/papers/YYMMDD.md에 저장한다. "이 논문 리뷰해줘", "논문 정리해줘", "paper-review" 등 논문 분석 요청 시 트리거된다.
+---
+
+# Paper Review Skill
 
 ## 역할 및 목적
 
@@ -17,6 +22,7 @@
 ## 블로그 포스트 작성 규칙
 
 ### front matter
+
 ```yaml
 ---
 date: YYYY-MM-DD
@@ -26,6 +32,7 @@ categories: "논문"
 weight: 10
 ---
 ```
+
 - date는 오늘 날짜
 - front matter 바로 다음에 논문 제목 heading을 넣지 않는다 (title에 이미 있으므로 중복)
 - 메인 섹션은 H2 (`##`), 서브섹션은 H3 (`###`)
@@ -34,7 +41,7 @@ weight: 10
 
 모든 섹션은 논문의 어느 문장·수식·표에서 발췌했는지 근거를 함께 표기한다.
 
-```
+```markdown
 ## 1. Motivation & Problem
 다루는 구체적인 현실적/ML 문제와 그 중요성을 설명한다.
 
@@ -56,4 +63,5 @@ weight: 10
 
 - 파일명: `YYMMDD.md` (오늘 날짜 기준, 예: `260517.md`)
 - 저장 경로: `content/papers/YYMMDD.md`
+- 같은 날 이미 파일이 있으면 `YYMMDD2.md`, `YYMMDD3.md` 식으로 suffix를 붙인다.
 - 저장 후 사용자에게 파일 경로를 알려준다.
