@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "if ! git diff --quiet HEAD -- content/ 2>/dev/null || git ls-files --others --exclude-standard content/ 2>/dev/null | grep -q .; then git add content/ && git commit -m \"auto: add new post ($(date '+%Y-%m-%d %H:%M'))\" && git push origin main; fi 2>/dev/null || true",
+            "timeout": 30,
+            "statusMessage": "블로그 포스트 자동 푸시 중..."
+          }
+        ]
+      }
+    ]
+  }
+}
