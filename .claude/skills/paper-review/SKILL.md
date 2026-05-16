@@ -30,13 +30,24 @@ author: "oppenheimer1223"
 title: "[논문] 논문 제목"
 categories: "논문"
 weight: 10
+ShowToc: true
+TocOpen: false
+math: true
 ---
 ```
 
 - date는 오늘 날짜 + KST 타임존 (`+09:00`) 명시. 예: `2026-05-17T00:00:00+09:00`
   - GitHub Actions가 UTC로 동작하므로, 타임존 없는 date는 KST와 UTC 차이(9시간)로 인해 빌드에서 제외될 수 있다
+- `ShowToc: true` — 목차(TOC) 활성화
+- `math: true` — KaTeX 수식 렌더링 활성화. 수식이 없는 글이면 `false`로 두어도 무방
 - front matter 바로 다음에 논문 제목 heading을 넣지 않는다 (title에 이미 있으므로 중복)
 - 메인 섹션은 H2 (`##`), 서브섹션은 H3 (`###`)
+
+### 수식 작성
+
+- 인라인 수식: `$...$` (예: `$x \in \mathcal{X}$`)
+- 디스플레이 수식: `$$...$$` (예: `$$C_r = (c_1, c_2, \ldots, c_r)$$`)
+- LaTeX 문법 사용. KaTeX 호환 명령어만 사용 가능 (`\mathcal`, `\Pi`, `\oplus` 등 표준 명령어는 모두 지원)
 
 ### 분석 구조 (5단계, 반드시 준수)
 
@@ -58,7 +69,20 @@ weight: 10
 
 ## 5. Critical Evaluation
 아이디어의 타당성, 실험 결과의 신뢰성, 베이스라인의 적절성, 한계점 및 실제 문제 해결 가능성에 대해 비판적으로 검토한다.
+
+## References
+본문에서 인용한 모든 번호 참조(`[1]`, `[22]` 등)에 대응하는 레퍼런스 목록을 나열한다.
+형식: `- [N] Authors. *Title.* Venue/arXiv ID, Year.`
 ```
+
+### References 섹션 작성 규칙
+
+- 본문에서 `[숫자]` 형태로 인용한 모든 항목을 빠짐없이 포함한다
+- 인용하지 않은 레퍼런스는 포함하지 않는다 (논문 전체 레퍼런스 목록을 그대로 복사하지 않음)
+- 형식 예시:
+  - `- [1] Lakshya A Agrawal et al. *GEPA: Reflective prompt evolution can outperform reinforcement learning.* arXiv:2507.19457, 2025.`
+  - `- [5] Francois Chollet et al. *ARC-AGI-2: A new challenge for frontier AI reasoning systems.* arXiv:2505.11831, 2025.`
+- 번호 순서대로 정렬한다
 
 ## 파일 저장
 
