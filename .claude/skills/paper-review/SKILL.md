@@ -25,7 +25,7 @@ description: 사용자가 AI/ML 논문의 본문(텍스트, PDF 추출본, abstr
 
 ```yaml
 ---
-date: YYYY-MM-DD
+date: YYYY-MM-DDTHH:MM:SS+09:00
 author: "oppenheimer1223"
 title: "[논문] 논문 제목"
 categories: "논문"
@@ -33,7 +33,8 @@ weight: 10
 ---
 ```
 
-- date는 오늘 날짜
+- date는 오늘 날짜 + KST 타임존 (`+09:00`) 명시. 예: `2026-05-17T00:00:00+09:00`
+  - GitHub Actions가 UTC로 동작하므로, 타임존 없는 date는 KST와 UTC 차이(9시간)로 인해 빌드에서 제외될 수 있다
 - front matter 바로 다음에 논문 제목 heading을 넣지 않는다 (title에 이미 있으므로 중복)
 - 메인 섹션은 H2 (`##`), 서브섹션은 H3 (`###`)
 
